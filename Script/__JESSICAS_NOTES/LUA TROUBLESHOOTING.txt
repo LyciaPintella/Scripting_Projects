@@ -1,0 +1,13 @@
+https://discord.com/channels/373745291289034763/407120885682536448/517757313734541313
+
+Quick tip you might be aware of already: if you work on a data/script folder for scripting instead of having it in a pack, you can make changes to the scripts and reload the campaign to reload the scripts :p  You can hit Ctrl+L and have your scripts reloaded.
+
+Something I learnt today ^^ Until now, I was quitting the game and starting it up each time I made a change to the devtool. This significantly reduce the feedback loop 👌
+local duration, wins, losses = war_stats["duration"], war_stats["wins"], war_stats["losses"];
+
+in_power_of_nature:add_trigger_condition(
+	"ScriptEventPowerOfNatureTriggered",
+	function()
+		return true;
+	end
+);

@@ -1,0 +1,38 @@
+Overwrite priority order ! # $ % & ‘ ( ) + , – ; = @ 0-9 a-z [ ] ^ _ ` { } ~ Where “!” wins over “a”.
+
+https://discord.com/channels/373745291289034763/1021079382422474812
+
+
+REGEX TESTER
+https://regex101.com/r/cO8lqs/3
+https://regex101.com/r/fo3Fuk/1
+
+(^land_|^main_)units_tables$
+
+^wh2_dlc15(?!.*_cha_)(?!.*_boss)(?!.*_summoned).*
+
+Try this search on the above link:
+^(?:.*_mon_)(?!.*dragon).*
+^.*mon(?!ed)(?!_prince)(?!.*dragon).* -- no dragons, dragon princes, or summoned units.
+
+^wh_dlc03_bst(?!.*_cha_).*
+	d(?!r)       matches a d only if is not followed by r, but r will not be part of the overall regex match -> Try it!
+
+^wh2_dlc14|wh2_dlc13|wh2_dlc12|wh2_dlc11|wh2_dlc10|wh2_dlc09(?!.*_cha_)(?!.*_boss)(?!.*summoned).*
+
+^(wh2_dlc14|wh2_dlc13|wh2_dlc12|wh2_dlc11|wh2_dlc10|wh2_dlc09)(?!.*_cha_)(?!.*_boss)(?!.*summoned)(?!.*noctilus).*
+
+
+^.*(?!.*_cha_)(_cav_|_mon_|_inf_).*
+^.*(mon)(?!.*_cha_).*
+^(?!.*_cha_).*
+
+^.*mon(?!ed).* -- find all monsters but no summoned.
+^.*mon(?!ed)(?!_prince).* -- turns out the daemon prince has mon in it, so rule him out too.
+^(?!.*_cha_).*
+
+^[!](?!.*[!])
+
+Powershell
+New-Item -ItemType SymbolicLink -Path ".\data" -Target "D:\SteamLibrary\steamapps\common\Total War WARHAMMER III\Warhammer III Data Folder"
+New-Item -ItemType SymbolicLink -Path ".\data" -Target "E:\Archive\Local Backups\Total War WARHAMMER III\Warhammer III Data Folder"
