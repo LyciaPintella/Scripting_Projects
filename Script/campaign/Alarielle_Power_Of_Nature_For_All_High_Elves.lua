@@ -124,54 +124,49 @@ end;
 cm:add_post_first_tick_callback(function() power_of_nature() end);
 
 function add_alarielle_listeners()
-
-	core:add_listener(
-		"power_of_nature_find_alarielle",
-		"FactionTurnStart",
-		function(context)
-			return context:culture() == m_hef_culture;
-		local faction_str = hef_factions[i].faction;
-		local faction_obj = cm:get_faction(faction_str);
-		local char_list = faction_obj:character_list();
-	
-		cm:add_faction_turn_start_listener_by_name(
-		"power_of_nature",
-		hef_factions[i],
+		core:add_listener(
+			"power_of_nature",
+			"FactionTurnStart",
 			function(context)
-				for j = 0, char_list:num_items() - 1 do
-					local current_char = char_list:item_at(j);
-	
-					if current_char:is_null_interface() == false and current_char:character_subtype_key() == alarielle.subtype and current_char:get_forename() == alarielle.forename then
-						local character = context:current_char();
-					
-						if not character:is_at_sea() then
-							local region = character:region();
-							local region_key = region:name();
-							local region_owning_faction = region:owning_faction();
-							local region_culture = region_owning_faction:culture();
-							local region_is_abandoned = region:is_abandoned();
-							
-							if not region_is_abandoned and region_culture == m_hef_culture then
-								if region:has_effect_bundle("wh2_dlc10_power_of_nature") then
-									cm:remove_effect_bundle_from_region("wh2_dlc10_power_of_nature", region_key);
-								end;
-	
-								cm:apply_effect_bundle_to_region("wh2_dlc10_power_of_nature", region_key, 15);
-								power_of_nature_regions[region_key] = 15;
-	
-								cm:add_garrison_residence_vfx(region:garrison_residence():command_queue_index(), power_of_nature_vfx.full, false);
-								core:trigger_event("ScriptEventPowerOfNatureTriggered");
-							end;
-						end;
-					end;
-				end;
+				--return faction_culture[context:faction:culture()] == m_hef_culture
+				return power_of_nature_regions[context:region():name()] ~= nil;
 			end,
-		true
+			function(context)
+				local region = context:region();
+				local region_key = region:name();
+				local garrison_residence = region:garrison_residence();
+				local garrison_residence_cqi = garrison_residence:command_queue_index();
+				local region_owning_faction = region:owning_faction();
+				local region_culture = region_owning_faction:culture();
+				local region_is_abandoned = region:is_abandoned();
+							
+				cm:remove_garrison_residence_vfx(garrison_residence_cqi, power_of_nature_vfx.full);
+				cm:remove_garrison_residence_vfx(garrison_residence_cqi, power_of_nature_vfx.half);
+		
+				if region_is_abandoned or region_culture ~= m_hef_culture then
+					cm:remove_effect_bundle_from_region("wh2_dlc10_power_of_nature", region_key);
+				end
+	
+				
+				local turns_remaining = power_of_nature_regions[region_key];
+				turns_remaining = turns_remaining - 1;
+				
+				if turns_remaining > 7 then
+					-- display full VFX
+					cm:add_garrison_residence_vfx(garrison_residence_cqi, power_of_nature_vfx.full, false);
+					power_of_nature_regions[region_key] = turns_remaining;
+				elseif turns_remaining > 0 then
+					-- switch to half strength VFX
+					cm:add_garrison_residence_vfx(garrison_residence_cqi, power_of_nature_vfx.half, false);
+					power_of_nature_regions[region_key] = turns_remaining;
+				else
+					power_of_nature_regions[region_key] = nil;
+				end
+			end,
+			true
 		);
-	end;
-		end,
-		function(context)
-			local region = context:region();
+		end
+
 		--Power of Nature
 		-- update the vfx on each region each turn
 		core:add_listener(
