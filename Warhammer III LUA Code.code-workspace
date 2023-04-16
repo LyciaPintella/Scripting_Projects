@@ -1,12 +1,10 @@
 {
 	"folders": [
 		{
-			"name": "script",
-			"path": "../script"
+			"path": "."
 		},
 		{
-			"name": "Warhammer III LUA Code Development Workspace",
-			"path": "."
+			"path": "C:/Users/Jessi/AppData/Roaming/Code/User"
 		}
 	],
 	"settings": {
