@@ -11,3 +11,19 @@ in_power_of_nature:add_trigger_condition(
 		return true;
 	end
 );
+
+		-- don't award a magical item if it is a quest battle
+		local a_char_cqi, a_mf_cqi, a_faction_name = cm:pending_battle_cache_get_attacker(1);
+		local d_char_cqi, d_mf_cqi, d_faction_name = cm:pending_battle_cache_get_defender(1);
+		
+		local attacker = cm:get_faction(a_faction_name);
+		local defender = cm:get_faction(d_faction_name);
+		
+		if (attacker and attacker:is_quest_battle_faction()) or (defender and defender:is_quest_battle_faction()) then
+			out.traits("attempt_to_award_random_magical_item() called, but it is a quest battle. Not going to award anything.");
+			return;
+		end;
+
+
+
+"wh3_main_ksl_inf_ice_guard_0,wh3_main_ksl_inf_ice_guard_1,wh3_main_ksl_inf_tzar_guard_0,wh3_main_ksl_inf_tzar_guard_0,wh3_main_ksl_cav_gryphon_legion_0,wh3_main_ksl_cav_gryphon_legion_0,wh3_main_ksl_inf_kossars_1,wh3_main_ksl_inf_kossars_1,wh3_main_ksl_inf_kossars_1,kossar_bardiche,kossar_bardiche,wh3_main_ksl_veh_little_grom_0",

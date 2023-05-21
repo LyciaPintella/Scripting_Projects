@@ -1,0 +1,51 @@
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2848892868]Collabs Team: Hertz Province Patrols[/url]
+[url=URL]TITLE[/url]
+[url=URL]TITLE[/url]
+[url=URL]TITLE[/url]
+[url=URL]TITLE[/url]
+[url=URL]TITLE[/url]
+
+AI Overhauls - CAI Task
+
+AI Overhauls - CAI Personality
+
+AI Overhauls - CAI Task And CAI Personality
+
+AI Faction Behavior - CAI Construction
+
+AI Faction Behavior - CAI Personality
+
+AI Faction Behavior - CAI Decision
+
+Seralin
+wh2_pro08_neu_cha_felix_main_unit_hero
+wh2_pro08_neu_cha_gotrek_main_unit_hero
+kou_talarian
+kou_talarian_horse
+kou_talarian_phoenix
+Seralin
+nom_eldyra
+nom_eldyra_maladhros
+nom_galifreius
+nom_galifreius_great_eagle
+
+
+--adding dummy stuff to the tech mod so it can apply techs to custom heroes and lords.
+land_units_tables|main_units_tables|melee_weapons_tables|ui_unit_groupings_tables|unit_description_historical_texts_tables|unit_description_short_texts_tables|unit_attributes_groups|mounts|variants_tables|battle_entities|agent_culture_details|battlefiel_engines|warscape_animated_tables|missile_weapon|projectiles|agent_subtypes_tables
+
+Expanded LSG Recruitment From Ports And Elven Colonies
+
+This mod expands port recruitment of Lothern Sea Guard to allow them to be recruited at a maximum level regular port (T5 in vanilla), or from The second level (tier 3) of the special ports located in Lothern, Copher, Dragon Isle, Marienburg, and Erengrad.
+
+Elven Colonies also get the shielded variant at level 4, though for the minor colony that means you will need a Tier 4 Minor Building Mod.
+
+Alarielle's True Power of Nature!
+
+This mod allows Alarielle to boost the entire Order Tide with Power of Nature. Included cultures: High Elves (duh), Lizardmen, Grand Cathay, Kislev, Wood Elves, Bretonnia, The Empire, and the Dawi.
+
+Tip: Ally with her and use the war coordination system to tell her to defend different regions one after another and she will do the rounds!
+
+Also use with: [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2977110199]Alarielle - Power of Nature For All High Elves[/url]
+
+[b]Note: This is included in:  [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2977110097]Alarielle's Global World Torment And True Power of Nature Combined[/url]. Trying to load both mods together will break something, somewhere![/b]
+

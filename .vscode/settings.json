@@ -1,13 +1,56 @@
 {
-    "Lua.workspace.library": [
-        "D:/OneDrive/Documents/Warhammer III Projects/warhammer_3/tw_autogen/global/",
-        "D:/OneDrive/Documents/Warhammer III Projects/warhammer_3/tw_autogen/campaign/",
-        "D:/OneDrive/Documents/Warhammer III Projects/warhammer_3/tw_autogen/frontend/",
-        "D:/OneDrive/Documents/Warhammer III Projects/warhammer_3/tw_autogen/battle/"
-    ],
+	"Lua.workspace.library": [
+		"D:/OneDrive/Documents/Warhammer III Projects/warhammer_3/tw_autogen/global/",
+		"D:/OneDrive/Documents/Warhammer III Projects/warhammer_3/tw_autogen/campaign/",
+		"D:/OneDrive/Documents/Warhammer III Projects/warhammer_3/tw_autogen/frontend/",
+		"D:/OneDrive/Documents/Warhammer III Projects/warhammer_3/tw_autogen/battle/"
+	],
+	"Lua.workspace.library": [
+		"../warhammer_3/tw_autogen/global",
+		"../warhammer_3/tw_autogen/campaign/",
+		"../warhammer_3/tw_autogen/frontend/",
+		"../warhammer_3/tw_autogen/battle/"
+	],
 	"Lua.diagnostics.workspaceDelay": 500,
 	"Lua.diagnostics.workspaceRate": 20,
-	"Lua.runtime.version":"Lua 5.1",
+	"Lua.runtime.version": "Lua 5.1",
 	"Lua.workspace.ignoreSubmodules": false,
 	"Lua.workspace.preloadFileSize": 1500,
+	"workbench.colorCustomizations": {
+		"activityBar.background": "#16276A",
+		"titleBar.activeBackground": "#1F3794",
+		"titleBar.activeForeground": "#FBFCFE"
+	},
+	"Lua.codeLens.enable": true,
+	"[lua]": {
+		"editor.defaultFormatter": "yinfei.luahelper",
+		"editor.autoClosingBrackets": "always",
+		"editor.copyWithSyntaxHighlighting": true,
+	},
+	"luahelper.format.column_limit": 160,
+	"editor.defaultFormatter": "operali.lua-booster",
+	"Lua.completion.callSnippet": "Both",
+	"Lua.completion.displayContext": 5,
+	"Lua.hint.setType": true,
+	"diffEditor.wordWrap": "on",
+	"editor.wordWrap": "on",
+	"git.autofetch": true,
+	"search.searchEditor.reusePriorSearchConfiguration": true,
+	"npm.exclude": "",
+	"editor.formatOnSave": true,
+	"editor.formatOnPaste": true,
+	"editor.formatOnType": true,
+	"workbench.editor.labelFormat": "short",
+	"powershell.codeFormatting.avoidSemicolonsAsLineTerminators": true,
+	"notebook.formatOnSave.enabled": true,
+	"bookmarks.experimental.enableNewStickyEngine": false,
+	"Lua.format.defaultConfig": {
+		"luahelper.format.column_limit": "160"
+	},
+	"Lua.completion.autoRequire": false,
+	"git.enableSmartCommit": true,
+	"explorer.excludeGitIgnore": true,
+	"[jsonc]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
 }
