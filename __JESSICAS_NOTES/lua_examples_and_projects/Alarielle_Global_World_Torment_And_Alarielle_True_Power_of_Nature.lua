@@ -1,5 +1,5 @@
-local power_of_nature = {
-    ["cultures"] = {
+local Power_of_Nature = {
+    ["Cultures"] = {
         ["wh2_main_hef_high_elves"] = true,
         ["wh2_main_lzd_lizardmen"] = true,
         ["wh3_main_cth_cathay"] = true,
@@ -14,7 +14,11 @@ local power_of_nature = {
         full = "scripted_effect7",
         half = "scripted_effect8"
     },
-    regions = {}
+    Regions = {},
+    out = function(t)
+        ModLog("Alarielle Global World Torment And True Power of Nature: " .. tostring(t) .. ".")
+    end
+
 };
 
 local alarielle_faction_key = "wh2_main_hef_avelorn";
@@ -23,7 +27,7 @@ local hellebron_faction_key = "wh2_main_def_har_ganeth";
 local defender_of_ulthuan_effect = "";
 local defender_of_ulthuan_level = 1;
 
-local ulthuan_regions = {
+local ulthuan_Regions = {
     ["outer"] = {
         ["wh3_main_combi_region_vauls_anvil_ulthuan"] = true,
         ["wh3_main_combi_region_tor_sethai"] = true,
@@ -66,59 +70,45 @@ local ulthuan_regions = {
     ["inner_lost"] = 0
 };
 
-local out = function(t)
-    ModLog("Alarielle Global World Torment And Power of Nature When Visiting All Elven Regions Combined: " .. tostring(t) .. ".")
-end
-
-function add_alarielle_listeners()
-    out("Adding Alarielle Listeners");
-
-    -- POWER OF NATURE
-    cm:add_faction_turn_start_listener_by_name("power_of_nature", alarielle_faction_key, function(context)
+function Power_of_Nature:Start_Power_of_Nature_Listeners()
+    cm:add_faction_turn_start_listener_by_name("Power_of_Nature", alarielle_faction_key, function(context)
         local character = context:faction():faction_leader();
 
         if character:has_region() and not character:is_at_sea() then
-            out("Alarielle wasn't at sea and she has a region. Adding region variables" .. "")
+            self.out("Alarielle wasn't at sea and she has a region.")
             local alarielle_faction = cm:get_faction(character:faction():name())
             local region = character:region();
-            out("region:name() == " .. region:name() .. "")
-
             local region_key = region:name();
-            out("region_key == " .. region_key .. "")
-
             local region_owning_faction = region:owning_faction();
-            out("region:owning_faction():name() == " .. region:owning_faction():name() .. ", region_owning_faction:name() == " .. region_owning_faction:name() .. "")
-
             local region_culture = region_owning_faction:culture();
-            out("region_culture == " .. region_culture .. "")
 
-            out("region:is_abandoned() == " .. tostring(region:is_abandoned()) .. "")
-            if not region:is_abandoned() then
-                out("Is region an allowed culture?: " .. tostring(power_of_nature["cultures"][region_culture]) .. "")
-                if power_of_nature["cultures"][region_culture] ~= nil then
-                    out("War?: " .. tostring(alarielle_faction:at_war_with(region_owning_faction)) .. "")
-                    if alarielle_faction:at_war_with(region_owning_faction) == false then
+            self.out("region's name is: " .. region:name() .. "")
+            self.out("region's key is: " .. region_key .. "")
+            self.out("region's owning faction's name: " .. region:owning_faction():name() .. ", region_owning_faction:name() == " .. region_owning_faction:name() .. "")
+            self.out("region's culture is: " .. region_culture .. "")
+            self.out("is region abandoned?: " .. tostring(region:is_abandoned()) .. "")
 
-                        if region:has_effect_bundle("wh2_dlc10_power_of_nature") then
-                            cm:remove_effect_bundle_from_region("wh2_dlc10_power_of_nature", region_key);
-                        end
+            if not region:is_abandoned() and alarielle_faction:at_war_with(region_owning_faction) == false and self["Cultures"][region_culture] ~= nil then
 
-                        out("cm:apply_effect_bundle_to_region" .. "")
-
-                        cm:apply_effect_bundle_to_region("wh2_dlc10_power_of_nature", region_key, 15);
-                        power_of_nature.regions[region_key] = 15;
-
-                        cm:add_garrison_residence_vfx(region:garrison_residence():command_queue_index(), power_of_nature.vfx.full, false);
-                        core:trigger_event("ScriptEventPowerOfNatureTriggered");
-                    end
+                if region:has_effect_bundle("wh2_dlc10_Power_of_Nature") then
+                    cm:remove_effect_bundle_from_region("wh2_dlc10_Power_of_Nature", region_key);
                 end
+
+                self.out("cm:apply_effect_bundle_to_region" .. "")
+
+                cm:apply_effect_bundle_to_region("wh2_dlc10_Power_of_Nature", region_key, 15);
+                self.Regions[region_key] = 15;
+
+                cm:add_garrison_residence_vfx(region:garrison_residence():command_queue_index(), self.vfx.full, false);
+                core:trigger_event("ScriptEventPowerOfNatureTriggered");
             end
         end
+
     end, true);
 
     -- update the vfx on each region each turn
-    core:add_listener("power_of_nature_region", "RegionTurnStart", function(context)
-        return power_of_nature.regions[context:region():name()] ~= nil;
+    core:add_listener("Power_of_Nature_Region", "RegionTurnStart", function(context)
+        return self.Regions[context:region():name()] ~= nil;
     end, function(context)
         local region = context:region();
         local region_key = region:name();
@@ -126,28 +116,35 @@ function add_alarielle_listeners()
         local garrison_residence_cqi = garrison_residence:command_queue_index();
         local region_culture = region:owning_faction():culture();
 
-        cm:remove_garrison_residence_vfx(garrison_residence_cqi, power_of_nature.vfx.full);
-        cm:remove_garrison_residence_vfx(garrison_residence_cqi, power_of_nature.vfx.half);
+        cm:remove_garrison_residence_vfx(garrison_residence_cqi, self.vfx.full);
+        cm:remove_garrison_residence_vfx(garrison_residence_cqi, self.vfx.half);
 
-        if region:is_abandoned() or power_of_nature["cultures"][region_culture] ~= true then
-            cm:remove_effect_bundle_from_region("wh2_dlc10_power_of_nature", region_key);
+        if region:is_abandoned() or self["Cultures"][region_culture] ~= true then
+            cm:remove_effect_bundle_from_region("wh2_dlc10_Power_of_Nature", region_key);
         end
 
-        local turns_remaining = power_of_nature.regions[region_key];
+        local turns_remaining = self.Regions[region_key];
         turns_remaining = turns_remaining - 1;
 
         if turns_remaining > 7 then
             -- display full VFX
-            cm:add_garrison_residence_vfx(garrison_residence_cqi, power_of_nature.vfx.full, false);
-            power_of_nature.regions[region_key] = turns_remaining;
+            cm:add_garrison_residence_vfx(garrison_residence_cqi, self.vfx.full, false);
+            self.Regions[region_key] = turns_remaining;
         elseif turns_remaining > 0 then
             -- switch to half strength VFX
-            cm:add_garrison_residence_vfx(garrison_residence_cqi, power_of_nature.vfx.half, false);
-            power_of_nature.regions[region_key] = turns_remaining;
+            cm:add_garrison_residence_vfx(garrison_residence_cqi, self.vfx.half, false);
+            self.Regions[region_key] = turns_remaining;
         else
-            power_of_nature.regions[region_key] = nil;
+            self.Regions[region_key] = nil;
         end
     end, true);
+end
+
+function add_alarielle_listeners()
+    out("Adding Alarielle Listeners");
+
+    -- POWER OF NATURE
+    Power_of_Nature:Start_Power_of_Nature_Listeners()
 
     -- MORTAL WORLDS TORMENT
     cm:add_faction_turn_start_listener_by_name("mortal_worlds_torment", alarielle_faction_key, function(context)
@@ -261,44 +258,44 @@ function add_alarielle_listeners()
     if cm:get_faction(alarielle_faction_key):is_human() then
         -- DEFENDER OF ULTHUAN
         core:add_listener("defender_of_ulthuan_region_update", "RegionFactionChangeEvent", function(context)
-            return ulthuan_regions["all"] and ulthuan_regions["all"][context:region():name()];
+            return ulthuan_Regions["all"] and ulthuan_Regions["all"][context:region():name()];
         end, function(context)
             local region = context:region();
 
             if not region:is_null_interface() then
                 local region_key = region:name();
-                out("Defender of Ulthuan Region Update: " .. region_key);
+                self.out("Defender of Ulthuan Region Update: " .. region_key);
                 local ulthuan_type = nil;
 
-                if ulthuan_regions["outer"][region_key] ~= nil then
+                if ulthuan_Regions["outer"][region_key] ~= nil then
                     ulthuan_type = "outer";
-                elseif ulthuan_regions["inner"][region_key] ~= nil then
+                elseif ulthuan_Regions["inner"][region_key] ~= nil then
                     ulthuan_type = "inner";
                 end
 
                 if ulthuan_type ~= nil then
-                    if ulthuan_regions[ulthuan_type][region_key] and region:is_abandoned() or region:owning_faction():culture() ~= "wh2_main_hef_high_elves" then
-                        ulthuan_regions[ulthuan_type][region_key] = false;
-                        ulthuan_regions[ulthuan_type .. "_lost"] = ulthuan_regions[ulthuan_type .. "_lost"] + 1;
-                        out("\tRegion was true and is now false - Value " .. ulthuan_type .. "_lost count is " .. tostring(ulthuan_regions[ulthuan_type .. "_lost"]) .. " (+1)");
-                    elseif not ulthuan_regions[ulthuan_type][region_key] and not region:is_abandoned() and region:owning_faction():culture() == "wh2_main_hef_high_elves" then
-                        ulthuan_regions[ulthuan_type][region_key] = true;
-                        ulthuan_regions[ulthuan_type .. "_lost"] = ulthuan_regions[ulthuan_type .. "_lost"] - 1;
-                        out("\tRegion was false and is now true - Value " .. ulthuan_type .. "_lost count is " .. tostring(ulthuan_regions[ulthuan_type .. "_lost"]) .. " (-1)");
+                    if ulthuan_Regions[ulthuan_type][region_key] and region:is_abandoned() or region:owning_faction():culture() ~= "wh2_main_hef_high_elves" then
+                        ulthuan_Regions[ulthuan_type][region_key] = false;
+                        ulthuan_Regions[ulthuan_type .. "_lost"] = ulthuan_Regions[ulthuan_type .. "_lost"] + 1;
+                        self.out("\tRegion was true and is now false - Value " .. ulthuan_type .. "_lost count is " .. tostring(ulthuan_Regions[ulthuan_type .. "_lost"]) .. " (+1)");
+                    elseif not ulthuan_Regions[ulthuan_type][region_key] and not region:is_abandoned() and region:owning_faction():culture() == "wh2_main_hef_high_elves" then
+                        ulthuan_Regions[ulthuan_type][region_key] = true;
+                        ulthuan_Regions[ulthuan_type .. "_lost"] = ulthuan_Regions[ulthuan_type .. "_lost"] - 1;
+                        self.out("\tRegion was false and is now true - Value " .. ulthuan_type .. "_lost count is " .. tostring(ulthuan_Regions[ulthuan_type .. "_lost"]) .. " (-1)");
                     else
-                        out("\tNo changes made");
+                        self.out("\tNo changes made");
                     end
 
                     defender_of_ulthuan_remove_effects();
 
-                    if ulthuan_regions["inner_lost"] > 0 then
+                    if ulthuan_Regions["inner_lost"] > 0 then
                         if defender_of_ulthuan_effect == "wh2_dlc10_defender_of_ulthuan_all" or defender_of_ulthuan_effect == "wh2_dlc10_defender_of_ulthuan_outer" then
                             defender_of_ulthuan_show_event(region, "inner_lost");
                             core:trigger_event("ScriptEventDefenderOfUlthuanInnerLost");
                         end
 
                         defender_of_ulthuan_effect = "wh2_dlc10_defender_of_ulthuan_inner";
-                    elseif ulthuan_regions["outer_lost"] > 0 then
+                    elseif ulthuan_Regions["outer_lost"] > 0 then
                         if defender_of_ulthuan_effect == "wh2_dlc10_defender_of_ulthuan_all" then
                             defender_of_ulthuan_show_event(region, "outer_lost");
                             core:trigger_event("ScriptEventDefenderOfUlthuanOuterLost");
@@ -346,17 +343,17 @@ end
 function defender_of_ulthuan_initialize(new_game)
     local ulthuan_types = {"inner", "outer"};
 
-    -- populate a lookup table of all relevant regions
-    ulthuan_regions["all"] = {};
+    -- populate a lookup table of all relevant Regions
+    ulthuan_Regions["all"] = {};
 
     for i = 1, #ulthuan_types do
-        for region_key, value in pairs(ulthuan_regions[ulthuan_types[i]]) do
-            ulthuan_regions["all"][region_key] = true;
+        for region_key, value in pairs(ulthuan_Regions[ulthuan_types[i]]) do
+            ulthuan_Regions["all"][region_key] = true;
             local region = cm:get_region(region_key);
 
             if region and (region:is_abandoned() or region:owning_faction():culture() ~= "wh2_main_hef_high_elves") then
-                ulthuan_regions[ulthuan_types[i]][region_key] = false;
-                ulthuan_regions[ulthuan_types[i] .. "_lost"] = ulthuan_regions[ulthuan_types[i] .. "_lost"] + 1;
+                ulthuan_Regions[ulthuan_types[i]][region_key] = false;
+                ulthuan_Regions[ulthuan_types[i] .. "_lost"] = ulthuan_Regions[ulthuan_types[i] .. "_lost"] + 1;
             end
         end
     end
@@ -367,9 +364,9 @@ function defender_of_ulthuan_initialize(new_game)
         defender_of_ulthuan_level = 1;
     end
 
-    if ulthuan_regions["inner_lost"] > 0 then
+    if ulthuan_Regions["inner_lost"] > 0 then
         defender_of_ulthuan_effect = "wh2_dlc10_defender_of_ulthuan_inner";
-    elseif ulthuan_regions["outer_lost"] > 0 then
+    elseif ulthuan_Regions["outer_lost"] > 0 then
         defender_of_ulthuan_effect = "wh2_dlc10_defender_of_ulthuan_outer";
     else
         defender_of_ulthuan_effect = "wh2_dlc10_defender_of_ulthuan_all";
@@ -413,10 +410,10 @@ end
 --------------------------------------------------------------
 cm:add_saving_game_callback(function(context)
     cm:save_named_value("defender_of_ulthuan_level", defender_of_ulthuan_level, context)
-    cm:save_named_value("power_of_nature_regions", power_of_nature.regions, context)
+    cm:save_named_value("Power_of_Nature_Regions", Power_of_Nature.Regions, context)
 end)
 
 cm:add_loading_game_callback(function(context)
     defender_of_ulthuan_level = cm:load_named_value("defender_of_ulthuan_level", 1, context)
-    power_of_nature.regions = cm:load_named_value("power_of_nature_regions", {}, context)
+    Power_of_Nature.Regions = cm:load_named_value("Power_of_Nature_Regions", {}, context)
 end)

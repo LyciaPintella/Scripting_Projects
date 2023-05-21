@@ -1,5 +1,5 @@
 local Power_of_Nature = {
-    ["cultures"] = {
+    ["Cultures"] = {
         ["wh2_main_hef_high_elves"] = true,
         ["wh2_main_lzd_lizardmen"] = true,
         ["wh3_main_cth_cathay"] = true,
@@ -14,7 +14,7 @@ local Power_of_Nature = {
         full = "scripted_effect7",
         half = "scripted_effect8"
     },
-    regions = {},
+    Regions = {},
     out = function(t)
         ModLog("Alarielle's True Power of Nature: " .. tostring(t) .. ".")
     end
@@ -69,27 +69,24 @@ local ulthuan_regions = {
 };
 
 function Power_of_Nature:Start_Power_of_Nature_Listeners()
-
     cm:add_faction_turn_start_listener_by_name("Power_of_Nature", alarielle_faction_key, function(context)
         local character = context:faction():faction_leader();
 
         if character:has_region() and not character:is_at_sea() then
-            self.out("Alarielle wasn't at sea and she has a region." .. "")
+            out("Alarielle wasn't at sea and she has a region.")
             local alarielle_faction = cm:get_faction(character:faction():name())
             local region = character:region();
-            self.out("region's name is " .. region:name() .. "")
-
             local region_key = region:name();
-            self.out("region key is " .. region_key .. "")
-
             local region_owning_faction = region:owning_faction();
-            self.out("region:owning_faction():name() == " .. region:owning_faction():name() .. ", region_owning_faction:name() == " .. region_owning_faction:name() .. "")
-
             local region_culture = region_owning_faction:culture();
-            self.out("region's culture is " .. region_culture .. ". Is region an allowed culture?: " .. tostring(self["cultures"][region_culture]) .. "")
 
-            self.out("is region abandoned?: " .. tostring(region:is_abandoned()) .. "")
-            if not region:is_abandoned() and alarielle_faction:at_war_with(region_owning_faction) == false and self["cultures"][region_culture] ~= nil then
+            out("region's name is: " .. region:name() .. "")
+            out("region's key is: " .. region_key .. "")
+            out("region's owning faction's name: " .. region:owning_faction():name() .. ", region_owning_faction:name() == " .. region_owning_faction:name() .. "")
+            out("region's culture is: " .. region_culture .. "")
+            out("is region abandoned?: " .. tostring(region:is_abandoned()) .. "")
+
+            if not region:is_abandoned() and alarielle_faction:at_war_with(region_owning_faction) == false and self["Cultures"][region_culture] ~= nil then
 
                 if region:has_effect_bundle("wh2_dlc10_Power_of_Nature") then
                     cm:remove_effect_bundle_from_region("wh2_dlc10_Power_of_Nature", region_key);
@@ -98,7 +95,7 @@ function Power_of_Nature:Start_Power_of_Nature_Listeners()
                 self.out("cm:apply_effect_bundle_to_region" .. "")
 
                 cm:apply_effect_bundle_to_region("wh2_dlc10_Power_of_Nature", region_key, 15);
-                self.regions[region_key] = 15;
+                self.Regions[region_key] = 15;
 
                 cm:add_garrison_residence_vfx(region:garrison_residence():command_queue_index(), self.vfx.full, false);
                 core:trigger_event("ScriptEventPowerOfNatureTriggered");
@@ -109,7 +106,7 @@ function Power_of_Nature:Start_Power_of_Nature_Listeners()
 
     -- update the vfx on each region each turn
     core:add_listener("Power_of_Nature_Region", "RegionTurnStart", function(context)
-        return self.regions[context:region():name()] ~= nil;
+        return self.Regions[context:region():name()] ~= nil;
     end, function(context)
         local region = context:region();
         local region_key = region:name();
@@ -120,23 +117,23 @@ function Power_of_Nature:Start_Power_of_Nature_Listeners()
         cm:remove_garrison_residence_vfx(garrison_residence_cqi, self.vfx.full);
         cm:remove_garrison_residence_vfx(garrison_residence_cqi, self.vfx.half);
 
-        if region:is_abandoned() or self["cultures"][region_culture] ~= true then
+        if region:is_abandoned() or self["Cultures"][region_culture] ~= true then
             cm:remove_effect_bundle_from_region("wh2_dlc10_Power_of_Nature", region_key);
         end
 
-        local turns_remaining = self.regions[region_key];
+        local turns_remaining = self.Regions[region_key];
         turns_remaining = turns_remaining - 1;
 
         if turns_remaining > 7 then
             -- display full VFX
             cm:add_garrison_residence_vfx(garrison_residence_cqi, self.vfx.full, false);
-            self.regions[region_key] = turns_remaining;
+            self.Regions[region_key] = turns_remaining;
         elseif turns_remaining > 0 then
             -- switch to half strength VFX
             cm:add_garrison_residence_vfx(garrison_residence_cqi, self.vfx.half, false);
-            self.regions[region_key] = turns_remaining;
+            self.Regions[region_key] = turns_remaining;
         else
-            self.regions[region_key] = nil;
+            self.Regions[region_key] = nil;
         end
     end, true);
 end
@@ -405,10 +402,10 @@ end
 --------------------------------------------------------------
 cm:add_saving_game_callback(function(context)
     cm:save_named_value("defender_of_ulthuan_level", defender_of_ulthuan_level, context)
-    cm:save_named_value("Power_of_Nature_regions", self.regions, context)
+    cm:save_named_value("Power_of_Nature_Regions", Power_of_Nature.regions, context)
 end)
 
 cm:add_loading_game_callback(function(context)
     defender_of_ulthuan_level = cm:load_named_value("defender_of_ulthuan_level", 1, context)
-    self.regions = cm:load_named_value("Power_of_Nature_regions", {}, context)
+    Power_of_Nature.regions = cm:load_named_value("Power_of_Nature_Regions", {}, context)
 end)

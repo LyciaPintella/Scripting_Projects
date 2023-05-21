@@ -49,3 +49,9 @@ Also use with: [url=https://steamcommunity.com/sharedfiles/filedetails/?id=29771
 
 [b]Note: This is included in:  [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2977110097]Alarielle's Global World Torment And True Power of Nature Combined[/url]. Trying to load both mods together will break something, somewhere![/b]
 
+
+
+All I did was add hidden/disabled definitions for tier 4 minor settlements. Are you using a minor settlement mod? What happens if you load up without it? If you are using one, which one are you using? (So I can look at it).
+
+I know this mod isn't crashing on it's own because I can run it for hours. I need to know WHICH other mod you are using so I can figure out why my change broke it.
+[url=https://imgur.com/a/WPRMSy1]This is what I changed. Do you use anything else that might be mad about this?[/url]
