@@ -2,6 +2,10 @@
 	"folders": [
 		{
 			"path": "."
+		},
+		{
+			"name": "Virtual TW Source Files",
+			"uri": "twsource:/"
 		}
 	],
 	"settings": {
@@ -22,7 +26,9 @@
 		"Lua.diagnostics.disable": [
 			"lowercase-global",
 			"trailing-space",
-			"undefined-field"
+			"undefined-field",
+			"codestyle-check",
+			"empty-block"
 		],
 		"Lua.diagnostics.globals": [
 			"common",
@@ -141,7 +147,8 @@
 			"is_generatedcutscene",
 			"is_advicemanager",
 			"is_advicemonitor",
-			"is_attacklanemanager"			
+			"is_attacklanemanager",
+			"Alarielle"
 		],
 		"Lua.workspace.ignoreDir": [
 			".vscode",
@@ -161,9 +168,58 @@
 			"titleBar.activeBackground": "#1A4923",
 			"titleBar.activeForeground": "#F7FCF8"
 		},
-    },
-    "launch": {
-        "configurations": [
+		"Lua.runtime.version": "Lua 5.4",
+		"Lua.runtime.nonstandardSymbol": [
+			"/**/",
+			"`",
+			"+=",
+			"-=",
+			"*=",
+			"/=",
+			"<<=",
+			">>=",
+			"&=",
+			"|=",
+			"^="
+		],
+		"Lua.runtime.plugin": "c:\\Users\\Jessi\\.vscode\\extensions\\overextended.cfxlua-vscode-1.6.3\\Lua\\plugin.lua",
+		"Lua.workspace.library": [
+			"c:\\Users\\Jessi\\.vscode\\extensions\\overextended.cfxlua-vscode-1.6.3\\Lua\\runtime",
+			"c:\\Users\\Jessi\\.vscode\\extensions\\overextended.cfxlua-vscode-1.6.3\\Lua\\natives\\CFX-NATIVE",
+			"c:\\Users\\Jessi\\.vscode\\extensions\\overextended.cfxlua-vscode-1.6.3\\Lua\\natives\\GTAV"
+		],
+		"emmylua.spell.dict": [
+			"Alarielle"
+		],
+		"openresty.luacheck.globals": [
+			"Alarielle"
+		],
+		"luahelper.colors.Enable": true,
+		"search.quickOpen.includeSymbols": true,
+		"lua-tags.luaVersion": "5.1",
+		"Lua.hint.enable": true,
+		"javascript.inlayHints.functionLikeReturnTypes.enabled": true,
+		"javascript.inlayHints.variableTypes.suppressWhenTypeMatchesName": false,
+		"typescript.inlayHints.parameterNames.enabled": "literals",
+		"typescript.inlayHints.parameterTypes.enabled": true,
+		"typescript.inlayHints.propertyDeclarationTypes.enabled": true,
+		"typescript.inlayHints.variableTypes.enabled": true,
+		"html.format.wrapLineLength": 120,
+		"lua-format-extension.lineWidth": 120,
+		"prettier.htmlWhitespaceSensitivity": "strict",
+		"Lua.hover.previewFields": 5000,
+		"editor.wordWrapColumn": 120,
+		"lua.format.lineWidth": 120,
+		"files.exclude": {
+			"**/.git*": true,
+			"**/README.md": true
+		},
+		"editor.wordWrap": "wordWrapColumn",
+		"lua-format-extension.linebreakMultipleAssignments": true,
+		"editor.defaultFormatter": "notnoobmaster.lua-beautifier",
+	},
+	"launch": {
+		"configurations": [
 			{
 				"type": "lrdb",
 				"request": "attach",
@@ -197,6 +253,23 @@
 				"connectionPort": 8820,
 				"stopOnEntry": true,
 				"useCHook": true
+			},
+			{
+				"name": "tw-launch",
+				"type": "lua",
+				"request": "launch",
+				"executable": "<path to warhammer3>/warhammer3.exe",
+				"modListFile": "used_mods.txt",
+				"encoding": "UTF-8",
+				"env": {}
+			},
+			{
+				"name": "tw-wait",
+				"type": "lua",
+				"request": "attach",
+				"executable": "<path to warhammer3>/warhammer3.exe",
+				"modListFile": "used_mods.txt",
+				"encoding": "UTF-8"
 			}
 		]
 	},

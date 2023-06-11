@@ -21,6 +21,8 @@ Overwrite priority order ! # $ % & ‘ ( ) + , – ; = @ 0-9 a-z [ ] ^ _ ` { } ~
 
 https://discord.com/channels/373745291289034763/1021079382422474812
 
+My Discord: https://discord.gg/UvsEYrBkAG
+
 
 
 Alshua:	It's something you could have done as part of your older Specialist mod right?  Looked through your workshop just now.  Maybe I need to teach you how to do that...
@@ -51,7 +53,7 @@ REGEX TESTER
 https://regex101.com/r/cO8lqs/3
 https://regex101.com/r/fo3Fuk/1
 
-^(?!.*).*
+^.*hef(?=.*mount).*
 
 (^land_|^main_)units_tables$
 
@@ -72,8 +74,8 @@ Try this search on the above link:
 ^.*(mon)(?!.*_cha_).*
 ^(?!.*_cha_).*
 
-^.*mon(?!ed).* -- find all monsters but no summoned.
-^.*mon(?!ed)(?!_prince).* -- turns out the daemon prince has mon in it, so rule him out too.
+^.*mon(?!.*ed).* -- find all monsters but no summoned.
+
 ^(?!.*_cha_).*
 
 ^[!](?!.*[!])
@@ -84,6 +86,7 @@ Powershell
 New-Item -ItemType SymbolicLink -Path ".\data" -Target "D:\SteamLibrary\steamapps\common\Total War WARHAMMER III\Warhammer III Data Folder"
 New-Item -ItemType SymbolicLink -Path ".\data" -Target "E:\Archive\Local Backups\Total War WARHAMMER III\Warhammer III Data Folder"
 
+rmdir /s /q "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Windows Accessories"
 
 Git
 

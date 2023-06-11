@@ -6,7 +6,7 @@ item wh2_main_anc_magic_standard_horn_of_isha
 item wh2_dlc10_anc_magic_standard_banner_of_avelorn
 
 
-item wh_main_anc_magic_standard_gleaming_pennant +4 ldrship
+item wh_main_anc_magic_standard_gleaming_pennant +4 leadership
 item wh_main_anc_magic_standard_rampagers_standard
 item wh_main_anc_magic_standard_razor_standard
 item wh_main_anc_magic_standard_scarecrow_banner

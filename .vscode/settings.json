@@ -1,9 +1,10 @@
 {
 	"Lua.workspace.library": [
-		"D:/OneDrive/Documents/Warhammer III Projects/warhammer_3/tw_autogen/global/",
-		"D:/OneDrive/Documents/Warhammer III Projects/warhammer_3/tw_autogen/campaign/",
-		"D:/OneDrive/Documents/Warhammer III Projects/warhammer_3/tw_autogen/frontend/",
-		"D:/OneDrive/Documents/Warhammer III Projects/warhammer_3/tw_autogen/battle/"
+		"../warhammer_3/tw_autogen/global",
+		"../warhammer_3/tw_autogen/campaign/",
+		"../warhammer_3/tw_autogen/frontend/",
+		"../warhammer_3/tw_autogen/battle/",
+		"C:/Users/Jessi/AppData/Roaming/Code/User/globalStorage/sumneko.lua/addonManager/addons/argparse/module/library"
 	],
 	"Lua.workspace.library": [
 		"../warhammer_3/tw_autogen/global",
@@ -23,12 +24,12 @@
 	},
 	"Lua.codeLens.enable": true,
 	"[lua]": {
-		"editor.defaultFormatter": "yinfei.luahelper",
+		"editor.defaultFormatter": "JohnnyMorganz.stylua",
 		"editor.autoClosingBrackets": "always",
 		"editor.copyWithSyntaxHighlighting": true,
 	},
-	"luahelper.format.column_limit": 160,
-	"editor.defaultFormatter": "operali.lua-booster",
+	"luahelper.format.column_limit": 175,
+	"editor.defaultFormatter": "notnoobmaster.lua-beautifier",
 	"Lua.completion.callSnippet": "Both",
 	"Lua.completion.displayContext": 5,
 	"Lua.hint.setType": true,
@@ -45,7 +46,7 @@
 	"notebook.formatOnSave.enabled": true,
 	"bookmarks.experimental.enableNewStickyEngine": false,
 	"Lua.format.defaultConfig": {
-		"luahelper.format.column_limit": "160"
+		"luahelper.format.column_limit": "175"
 	},
 	"Lua.completion.autoRequire": false,
 	"git.enableSmartCommit": true,
@@ -53,4 +54,20 @@
 	"[jsonc]": {
 		"editor.defaultFormatter": "vscode.json-language-features"
 	},
+	"html.format.wrapLineLength": 120,
+	"lua-format-extension.lineWidth": 120,
+	"Lua.diagnostics.disable": [
+		"lowercase-global",
+		"trailing-space",
+		"undefined-field",
+		"param-type-mismatch",
+		"redundant-parameter"
+	],
+	"editor.wordWrapColumn": 120,
+	"files.exclude": {
+		"**/.git": false,
+		"**/.git*": true,
+		"**/README.md": true
+	},
+	"lua-format-extension.linebreakMultipleAssignments": true,
 }

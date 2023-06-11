@@ -28,13 +28,13 @@ wh3_main_ksl_veh_little_grom_0
 Greenskins
 
 Eltharion's trusty vassal:
+abandon
 gr wh_main_grn_orcs_of_the_bloody_hand
-bb wh_main_special_savage_orc_camp_1
-bb wh_main_grn_farm_1
-bb wh_main_grn_industry_1
-bb wh_dlc06_grn_walls_1_wurrzag
-
 primary 2
+bb wh_main_grn_farm_2
+bb wh_dlc06_grn_walls_1_wurrzag
+bb wh_main_special_savage_orc_camp_2
+bb wh_main_grn_industry_1
 
 High Elves
 
@@ -44,7 +44,6 @@ res dd_hef_upgrades_splendour 25
 Eltharion resource
 res wardens_supply 3
 
-*Imrik special building:
 Helping Elves
 
 gr wh2_main_hef_nagarythe
@@ -54,14 +53,18 @@ gr wh2_main_hef_yvresse
 gr wh2_main_hef_chrace
 gr wh2_main_hef_avelorn
 
-
 *Alarielle special building
 bb wh2_dlc10_special_world_root_entrance_3
 
 *Alarielle Sisters building
 bb wh2_dlc10_hef_handmaidens_alarielle
 
-bb wh2_main_hef_order_3
+*Alarielle Resources:
+bb wh2_main_hef_resource_animals_3
+
+*Imrik special building:
+
+bb wh2_main_hef_order_5
 bb wh2_main_hef_industry_3
 bb wh2_main_hef_court_2
 bb wh2_main_hef_farm_3
@@ -74,7 +77,6 @@ bb wh2_main_hef_worship_3
 bb wh2_main_hef_barracks_3
 bb wh2_main_hef_stables_2
 bb wh2_main_hef_dragons_2
-
 
 bb wh2_main_hef_hunters_2
 bb wh2_dlc10_hef_hunters_3
@@ -92,7 +94,7 @@ bb wh2_main_hef_resource_dyes_3
 bb wh2_dlc10_hef_aesanar_camp
 bb wh2_main_special_shrine_of_khaine_hef_1
 
-*Does sisters?
+Sisters:
 bb wh2_dlc10_hef_hunters_3
 
 Recruit slot:
@@ -113,21 +115,14 @@ au wh2_dlc10_hef_cav_the_fireborn_ror_0
 au wh2_dlc10_hef_inf_keepers_of_the_flame_ror_0
 
 au wh2_dlc15_hef_inf_rangers_0
+au wh2_main_hef_inf_lothern_sea_guard_0
 au wh2_main_hef_inf_lothern_sea_guard_1
 au wh2_dlc10_hef_inf_sisters_of_avelorn_0
 au wh2_main_hef_inf_phoenix_guard
 au wh2_main_hef_inf_swordmasters_of_hoeth_0
 au wh2_main_hef_inf_white_lions_of_chrace_0
 au wh2_dlc15_hef_inf_silverin_guard_0
-
 au wh2_dlc15_hef_veh_lion_chariot_of_chrace_0
-
-Imrik's dragons
-au wh2_dlc15_hef_mon_black_dragon_imrik
-au wh2_dlc15_hef_mon_forest_dragon_imrik
-au wh2_dlc15_hef_mon_moon_dragon_imrik
-au wh2_dlc15_hef_mon_star_dragon_imrik
-au wh2_dlc15_hef_mon_sun_dragon_imrik
 
 au wh2_main_hef_cav_silver_helms_1
 au wh2_main_hef_inf_spearmen_0
@@ -135,6 +130,9 @@ au wh2_dlc15_hef_inf_silverin_guard_0
 au wh2_main_hef_inf_archers_0 2
 au wh2_main_hef_inf_archers_1
 au wh2_dlc10_hef_inf_sisters_of_avelorn_0
+au wh2_main_hef_cav_ellyrian_reavers_1
+au wh2_main_hef_cav_ellyrian_reavers_0
+
 au wh2_main_hef_inf_gate_guard
 au wh2_main_hef_mon_great_eagle
 au wh2_main_hef_mon_moon_dragon
@@ -150,20 +148,16 @@ au wh2_dlc15_hef_inf_mistwalkers_sentinels_0
 au wh2_dlc15_hef_inf_mistwalkers_faithbearers_0
 
 Alith Anar
-wh2_dlc10_hef_inf_shadow_walkers_0
-wh2_dlc10_hef_inf_shadow_warriors_0
-wh2_dlc10_hef_inf_the_grey_ror_0
+au wh2_dlc10_hef_inf_shadow_walkers_0
+au wh2_dlc10_hef_inf_shadow_warriors_0
+au wh2_dlc10_hef_inf_the_grey_ror_0
 
-wh2_dlc10_hef_inf_sisters_of_avelorn_0
-
-
-Normal units
+au wh2_dlc10_hef_inf_sisters_of_avelorn_0
 
 Forest Spirits
 au wh2_dlc10_hef_mon_treeman_0
 au wh2_dlc10_hef_mon_treekin_0
 au wh2_dlc10_hef_inf_dryads_0
-
 
 au wh2_dlc10_hef_inf_the_silverpelts_ror_0
 au wh2_dlc10_hef_inf_the_storm_riders_ror_0
@@ -172,57 +166,51 @@ au wh2_dlc10_hef_inf_everqueens_court_guards_ror_0
 
 au wh2_dlc10_hef_cav_the_fireborn_ror_0
 
-add axp number - add number of ranks to all units of selected army
-au - add units
+Imrik's dragons
+au wh2_dlc15_hef_mon_black_dragon_imrik
+au wh2_dlc15_hef_mon_forest_dragon_imrik
+au wh2_dlc15_hef_mon_moon_dragon_imrik
+au wh2_dlc15_hef_mon_star_dragon_imrik
+au wh2_dlc15_hef_mon_sun_dragon_imrik
 
 
 *Alarielle special building
 bb wh2_dlc10_special_world_root_entrance_3
 gr wh2_main_hef_avelorn
 
-wh2_dlc10_hef_alarielle
-
-*Imrik small town build
-bb wh2_main_hef_farm_3
-bb wh2_main_hef_industry_3
-bb wh2_main_hef_defence_minor_2
+T3 Sisters
+bb wh2_dlc10_hef_alarielle
 
 Imrik Confederation:
 bb wh2_main_hef_resource_iron_3
 bb wh2_main_hef_resource_animals_3
 
-bb wh2_main_hef_defence_major_1
-bb wh2_main_hef_industry_3
-bb wh2_main_hef_hunters_2
-
 Helping Bretonnia:
 
-gr wh3_main_brt_aquitaine
-
-gr wh2_dlc14_brt_chevaliers_de_lyonesse
-gr wh2_main_brt_knights_of_origo
-gr wh2_main_brt_knights_of_the_flame
-gr wh2_main_brt_thegans_crusaders
-
-gr wh_main_brt_lyonesse
-gr wh_main_brt_parravon
-gr wh_main_brt_bretonnia
-gr wh_main_brt_carcassonne
-gr wh_main_brt_bastonne
-gr wh_main_brt_artois
-gr wh_main_brt_bordeleaux
-
-*BORDELEAUX
-bb wh_main_special_bordeleaux_vineyards_4
-
-gr wh3_main_brt_aquitaine
-
-gr wh2_dlc14_brt_chevaliers_de_lyonesse
-gr wh2_main_brt_knights_of_origo
-
+abandon
 primary 2
-
 bb wh_main_brt_stables_1
+
+gr wh_main_brt_bastonne
+gr wh2_main_brt_knights_of_origo
+gr wh2_dlc14_brt_chevaliers_de_lyonesse
+gr wh_main_brt_carcassonne
+gr wh3_main_brt_aquitaine
+	bb wh_main_special_bordeleaux_vineyards_1
+	bb wh_main_special_bordeleaux_vineyards_4
+gr wh_main_brt_artois
+gr wh_main_brt_lyonesse
+	bb wh2_main_brt_resource_pastures_1
+gr wh_main_brt_bretonnia
+gr mixer_brt_quenelles
+	bb wh2_main_brt_resource_pastures_1
+
+Mousillon
+abandon
+gr mixer_msl_mallobaude
+primary 3
+bb mixu_msl_the_donjon_of_dol_1
+
 bb wh_main_brt_stables_5
 bb wh_main_brt_walls_3
 bb wh_main_brt_farm_3
@@ -238,6 +226,16 @@ bb wh2_main_brt_resource_timber_3
 bb wh2_main_brt_resource_furs_3
 bb bb wh2_main_brt_resource_marble_3
 
+
+gr wh2_main_brt_knights_of_the_flame
+gr wh2_main_brt_thegans_crusaders
+gr wh_main_brt_parravon
+gr wh_main_brt_bordeleaux
+gr mixer_brt_montfort
+gr mixer_brt_gisoreux
+gr mixer_brt_languille
+gr mixer_brt_brionne
+
 *BORDELEAUX
 bb wh_main_special_bordeleaux_vineyards_4
 
@@ -247,9 +245,6 @@ bb wh_main_brt_legendary_grail_abbey
 
 *Carcasonne
 bb wh_main_brt_legendary_enchantress_tower
-
-*Lyonesse Pasture
-bb wh2_main_brt_resource_pastures_3
 
 Helping Empire
 
