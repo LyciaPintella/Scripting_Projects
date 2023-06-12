@@ -17,7 +17,7 @@
 		"perforce.addOnFileCreate": true,
 		"editor.suggest.localityBonus": true,
 		"editor.suggestSelection": "first",
-		"editor.tabCompletion": "onlySnippets",
+		"editor.tabCompletion": "on",
 		"editor.wordBasedSuggestions": false,
 		"editor.parameterHints.enabled": true,
 		"workbench.tree.indent": 20,
@@ -205,18 +205,24 @@
 		"typescript.inlayHints.propertyDeclarationTypes.enabled": true,
 		"typescript.inlayHints.variableTypes.enabled": true,
 		"html.format.wrapLineLength": 120,
-		"lua-format-extension.lineWidth": 120,
+		"lua-format-extension.lineWidth": 160,
 		"prettier.htmlWhitespaceSensitivity": "strict",
 		"Lua.hover.previewFields": 5000,
 		"editor.wordWrapColumn": 120,
 		"lua.format.lineWidth": 120,
 		"files.exclude": {
 			"**/.git*": true,
-			"**/README.md": true
+			"**/desktop.ini": true
 		},
 		"editor.wordWrap": "wordWrapColumn",
 		"lua-format-extension.linebreakMultipleAssignments": true,
-		"editor.defaultFormatter": "notnoobmaster.lua-beautifier",
+		"editor.formatOnPaste": true,
+		"editor.formatOnSave": true,
+		"editor.formatOnType": true,
+		"prettier.printWidth": 160,
+		"luahelper.format.indent_width": 5,
+		"prettier.tabWidth": 5,
+		"workbench.editor.labelFormat": "medium",
 	},
 	"launch": {
 		"configurations": [

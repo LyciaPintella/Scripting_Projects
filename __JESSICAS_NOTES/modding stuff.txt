@@ -56,6 +56,9 @@ https://regex101.com/r/fo3Fuk/1
 ^.*hef(?=.*mount).*
 
 (^land_|^main_)units_tables$
+^(?!.*0)(?!.*16)1
+
+^(?!.*vassal)
 
 ^wh2_dlc15(?!.*_cha_)(?!.*_boss)(?!.*_summoned).*
 

@@ -24,11 +24,11 @@
 	},
 	"Lua.codeLens.enable": true,
 	"[lua]": {
-		"editor.defaultFormatter": "JohnnyMorganz.stylua",
+		"editor.defaultFormatter": "notnoobmaster.lua-beautifier",
 		"editor.autoClosingBrackets": "always",
 		"editor.copyWithSyntaxHighlighting": true,
 	},
-	"luahelper.format.column_limit": 175,
+	"luahelper.format.column_limit": 160,
 	"editor.defaultFormatter": "notnoobmaster.lua-beautifier",
 	"Lua.completion.callSnippet": "Both",
 	"Lua.completion.displayContext": 5,
@@ -46,7 +46,7 @@
 	"notebook.formatOnSave.enabled": true,
 	"bookmarks.experimental.enableNewStickyEngine": false,
 	"Lua.format.defaultConfig": {
-		"luahelper.format.column_limit": "175"
+		"luahelper.format.column_limit": "160"
 	},
 	"Lua.completion.autoRequire": false,
 	"git.enableSmartCommit": true,
@@ -54,8 +54,8 @@
 	"[jsonc]": {
 		"editor.defaultFormatter": "vscode.json-language-features"
 	},
-	"html.format.wrapLineLength": 120,
-	"lua-format-extension.lineWidth": 120,
+	"html.format.wrapLineLength": 160,
+	"lua-format-extension.lineWidth": 160,
 	"Lua.diagnostics.disable": [
 		"lowercase-global",
 		"trailing-space",
@@ -63,11 +63,11 @@
 		"param-type-mismatch",
 		"redundant-parameter"
 	],
-	"editor.wordWrapColumn": 120,
+	"editor.wordWrapColumn": 160,
 	"files.exclude": {
 		"**/.git": false,
 		"**/.git*": true,
-		"**/README.md": true
+		"**/README.md": false
 	},
 	"lua-format-extension.linebreakMultipleAssignments": true,
 }
