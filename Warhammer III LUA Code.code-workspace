@@ -21,7 +21,6 @@
 		"editor.wordBasedSuggestions": false,
 		"editor.parameterHints.enabled": true,
 		"workbench.tree.indent": 20,
-		"lua.targetVersion": "5.1",
 		"window.title": "${rootPath} : ${activeFolderMedium}\\${activeEditorShort} ${dirty}",
 		"Lua.diagnostics.disable": [
 			"lowercase-global",

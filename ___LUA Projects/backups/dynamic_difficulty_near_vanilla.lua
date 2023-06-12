@@ -217,11 +217,11 @@ end, function(context)
                 mod_battle_loot = 2.25
             elseif combined_difficulty == -3 then -- Legendary
                 player_difficulty = "legendary"
-                mod_construction = 2.4
-                mod_recruit_cost = 2.4
-                mod_tax_rate = 2.4
-                mod_growth = 2.4
-                mod_battle_loot = 2.4
+                mod_construction = 2.5
+                mod_recruit_cost = 2.5
+                mod_tax_rate = 2.5
+                mod_growth = 2.5
+                mod_battle_loot = 2.5
             elseif combined_difficulty == 1 then -- Easy
                 player_difficulty = "easy"
                 mod_construction = -0.5
@@ -279,7 +279,7 @@ end, function(context)
             end;
 			local effect_strength_recruit_cost = math.ceil(ai_buff_level * (-2) * mod_recruit_cost * mod_extra_difficulty - 5);
 			if effect_strength_recruit_cost < (-75) then
-				effect_strength_construction = -75;
+				effect_strength_recruit_cost = -75;
 			end;
 			local effect_bundle_government = cm:create_new_custom_effect_bundle("Dynamic_Difficulty_Government");
 			effect_bundle_government:add_effect("wh_main_effect_economy_gdp_mod_all", "faction_to_region_own", effect_strength_tax_rate);
@@ -288,7 +288,7 @@ end, function(context)
 			effect_bundle_government:set_duration(1);
 			cm:apply_custom_effect_bundle_to_faction(effect_bundle_government, current_faction);
 			local effect_bundle_armies = cm:create_new_custom_effect_bundle("Dynamic_Difficulty_Armies");
-            effect_bundle_armies:add_effect("wh_main_effect_agent_action_outcome_parent_army_xp_gain_factionwide", "faction_to_force_own", xp_gain_per_turn);
+            effect_bundle_armies:add_effect("wh_main_effect_force_all_campaign_recruitment_cost_all", "faction_to_force_own", effect_strength_recruit_cost);
 			effect_bundle_armies:add_effect("wh_main_effect_agent_action_outcome_parent_army_xp_gain_factionwide", "faction_to_force_own", xp_gain_per_turn);
 			effect_bundle_armies:add_effect("wh_main_effect_force_all_campaign_experience_base_all", "faction_to_force_own", recruit_rank);
 			effect_bundle_armies:add_effect("wh_main_effect_force_all_campaign_post_battle_loot_mod", "faction_to_faction_own", effect_strength_battle_loot);
@@ -302,7 +302,7 @@ end, function(context)
 			effect_bundle_armies:set_duration(1);
 			cm:apply_custom_effect_bundle_to_faction(effect_bundle_armies, current_faction);
 			if current_faction_name == "wh_main_emp_empire" or current_faction_name == "wh_dlc07_vmp_von_carstein" then
-				jlog("Turn: # " .. turn_number .. " |  Difficulty: " .. player_difficulty .. " | Player Score: " .. player_score .. "| AI Buff Level: " .. ai_buff_level .. " | Income: " .. "+" .. effect_strength_tax_rate .. "%" .. " | Growth: " .. "+" .. effect_strength_growth .. " | Construction Cost: " .. effect_strength_construction .. "%" .. " | Loot: " .. "+" .. effect_strength_battle_loot .. "%" .. " | Rank: " .. "+" .. recruit_rank .. " | Unit XP Per Turn: " .. "+" .. xp_gain_per_turn .. " | Replenishment: " .. "+" .. replenishment_bonus .. "% | Recruitment Slots: " .. "+" .. recruit_points_bonus);
+				jlog("Turn: # " .. turn_number .. " |  Difficulty: " .. player_difficulty .. " | Player Score: " .. player_score .. "| AI Buff Level: " .. ai_buff_level .. " | Income: " .. "+" .. effect_strength_tax_rate .. "%" .. " | Growth: " .. "+" .. effect_strength_growth .. " | Construction Cost: " .. effect_strength_construction .. "%" .. " | Recruit Cost: " .. effect_strength_recruit_cost .. " | Loot: " .. "+" .. effect_strength_battle_loot .. "%" .. " | Rank: " .. "+" .. recruit_rank .. " | Unit XP Per Turn: " .. "+" .. xp_gain_per_turn .. " | Replenishment: " .. "+" .. replenishment_bonus .. "% | Recruitment Slots: " .. "+" .. recruit_points_bonus);
 			end;
 		end, 0);
 	end;

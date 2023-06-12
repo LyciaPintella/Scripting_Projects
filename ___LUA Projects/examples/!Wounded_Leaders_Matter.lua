@@ -22,6 +22,11 @@ local effect_groups = {
 			effect_key = "Sam_Wounded_Leader_Dummy",
 			effect_scope = "faction_to_faction_own_unseen",
 			value = 1
+		},
+		{
+			effect_key = "wh_main_effect_growth_all",
+			effect_scope = "faction_to_province_own",
+			value = -0
 		}
 	},
 	wh2_dlc11_sc_cst_vampire_coast = {
@@ -44,6 +49,11 @@ local effect_groups = {
 			effect_key = "Sam_Wounded_Leader_Dummy",
 			effect_scope = "faction_to_faction_own_unseen",
 			value = 1
+		},
+		{
+			effect_key = "wh_main_effect_growth_all",
+			effect_scope = "faction_to_province_own",
+			value = -0
 		}
 	},
 	wh2_main_sc_def_dark_elves = {
@@ -66,6 +76,11 @@ local effect_groups = {
 			effect_key = "Sam_Wounded_Leader_Dummy",
 			effect_scope = "faction_to_faction_own_unseen",
 			value = 1
+		},
+		{
+			effect_key = "wh_main_effect_growth_all",
+			effect_scope = "faction_to_province_own",
+			value = -0
 		}
 	},
 	wh2_main_sc_hef_high_elves = {
@@ -88,6 +103,11 @@ local effect_groups = {
 			effect_key = "Sam_Wounded_Leader_Dummy",
 			effect_scope = "faction_to_faction_own_unseen",
 			value = 1
+		},
+		{
+			effect_key = "wh_main_effect_growth_all",
+			effect_scope = "faction_to_province_own",
+			value = -0
 		}
 	},
 	wh2_main_sc_lzd_lizardmen = {
@@ -110,6 +130,11 @@ local effect_groups = {
 			effect_key = "Sam_Wounded_Leader_Dummy",
 			effect_scope = "faction_to_faction_own_unseen",
 			value = 1
+		},
+		{
+			effect_key = "wh_main_effect_growth_all",
+			effect_scope = "faction_to_province_own",
+			value = -0
 		}
 	},
 	wh2_main_sc_skv_skaven = {
@@ -132,6 +157,11 @@ local effect_groups = {
 			effect_key = "Sam_Wounded_Leader_Dummy",
 			effect_scope = "faction_to_faction_own_unseen",
 			value = 1
+		},
+		{
+			effect_key = "wh_main_effect_growth_all",
+			effect_scope = "faction_to_province_own",
+			value = -0
 		}
 	},
 	wh_dlc05_sc_wef_wood_elves = {
@@ -154,6 +184,11 @@ local effect_groups = {
 			effect_key = "Sam_Wounded_Leader_Dummy",
 			effect_scope = "faction_to_faction_own_unseen",
 			value = 1
+		},
+		{
+			effect_key = "wh_main_effect_growth_all",
+			effect_scope = "faction_to_province_own",
+			value = -0
 		}
 	},
 	wh_main_sc_brt_bretonnia = {
@@ -176,6 +211,11 @@ local effect_groups = {
 			effect_key = "Sam_Wounded_Leader_Dummy",
 			effect_scope = "faction_to_faction_own_unseen",
 			value = 1
+		},
+		{
+			effect_key = "wh_main_effect_growth_all",
+			effect_scope = "faction_to_province_own",
+			value = -0
 		}
 	},
 	wh_main_sc_emp_empire = {
@@ -203,6 +243,11 @@ local effect_groups = {
 			effect_key = "Sam_Wounded_Leader_Dummy",
 			effect_scope = "faction_to_faction_own_unseen",
 			value = 1
+		},
+		{
+			effect_key = "wh_main_effect_growth_all",
+			effect_scope = "faction_to_province_own",
+			value = -0
 		}
 	},
 	wh_main_sc_ksl_kislev = {
@@ -225,6 +270,11 @@ local effect_groups = {
 			effect_key = "Sam_Wounded_Leader_Dummy",
 			effect_scope = "faction_to_faction_own_unseen",
 			value = 1
+		},
+		{
+			effect_key = "wh_main_effect_growth_all",
+			effect_scope = "faction_to_province_own",
+			value = -0
 		}
 	},
 	wh_main_sc_teb_teb = {
@@ -247,6 +297,11 @@ local effect_groups = {
 			effect_key = "Sam_Wounded_Leader_Dummy",
 			effect_scope = "faction_to_faction_own_unseen",
 			value = 1
+		},
+		{
+			effect_key = "wh_main_effect_growth_all",
+			effect_scope = "faction_to_province_own",
+			value = -0
 		}
 	},
 	wh_main_sc_dwf_dwarfs = {
@@ -269,6 +324,11 @@ local effect_groups = {
 			effect_key = "Sam_Wounded_Leader_Dummy",
 			effect_scope = "faction_to_faction_own_unseen",
 			value = 1
+		},
+		{
+			effect_key = "wh_main_effect_growth_all",
+			effect_scope = "faction_to_province_own",
+			value = -0
 		}
 	},
 	wh_main_sc_grn_greenskins = {
@@ -291,6 +351,11 @@ local effect_groups = {
 			effect_key = "Sam_Wounded_Leader_Dummy",
 			effect_scope = "faction_to_faction_own_unseen",
 			value = 1
+		},
+		{
+			effect_key = "wh_main_effect_growth_all",
+			effect_scope = "faction_to_province_own",
+			value = -0
 		}
 	},
 	wh_main_sc_grn_savage_orcs = {
@@ -313,6 +378,11 @@ local effect_groups = {
 			effect_key = "Sam_Wounded_Leader_Dummy",
 			effect_scope = "faction_to_faction_own_unseen",
 			value = 1
+		},
+		{
+			effect_key = "wh_main_effect_growth_all",
+			effect_scope = "faction_to_province_own",
+			value = -0
 		}
 	},
 	wh_main_sc_nor_norsca = {
@@ -335,6 +405,11 @@ local effect_groups = {
 			effect_key = "Sam_Wounded_Leader_Dummy",
 			effect_scope = "faction_to_faction_own_unseen",
 			value = 1
+		},
+		{
+			effect_key = "wh_main_effect_growth_all",
+			effect_scope = "faction_to_province_own",
+			value = -0
 		}
 	},
 	wh_main_sc_vmp_vampire_counts = {
@@ -357,6 +432,11 @@ local effect_groups = {
 			effect_key = "Sam_Wounded_Leader_Dummy",
 			effect_scope = "faction_to_faction_own_unseen",
 			value = 1
+		},
+		{
+			effect_key = "wh_main_effect_growth_all",
+			effect_scope = "faction_to_province_own",
+			value = -0
 		}
 	},
 	wh3_main_sc_nur_nurgle = {
@@ -379,6 +459,11 @@ local effect_groups = {
 			effect_key = "Sam_Wounded_Leader_Dummy",
 			effect_scope = "faction_to_faction_own_unseen",
 			value = 1
+		},
+		{
+			effect_key = "wh_main_effect_growth_all",
+			effect_scope = "faction_to_province_own",
+			value = -0
 		}
 	},
 	wh3_main_sc_kho_khorne = {
@@ -401,6 +486,11 @@ local effect_groups = {
 			effect_key = "Sam_Wounded_Leader_Dummy",
 			effect_scope = "faction_to_faction_own_unseen",
 			value = 1
+		},
+		{
+			effect_key = "wh_main_effect_growth_all",
+			effect_scope = "faction_to_province_own",
+			value = -0
 		}
 	},
 	wh3_main_sc_tze_tzeentch = {
@@ -423,6 +513,11 @@ local effect_groups = {
 			effect_key = "Sam_Wounded_Leader_Dummy",
 			effect_scope = "faction_to_faction_own_unseen",
 			value = 1
+		},
+		{
+			effect_key = "wh_main_effect_growth_all",
+			effect_scope = "faction_to_province_own",
+			value = -0
 		}
 	},
 	wh3_main_sc_sla_slaanesh = {
@@ -445,6 +540,11 @@ local effect_groups = {
 			effect_key = "Sam_Wounded_Leader_Dummy",
 			effect_scope = "faction_to_faction_own_unseen",
 			value = 1
+		},
+		{
+			effect_key = "wh_main_effect_growth_all",
+			effect_scope = "faction_to_province_own",
+			value = -0
 		}
 	},
 	wh3_main_sc_dae_daemons = {
@@ -467,6 +567,11 @@ local effect_groups = {
 			effect_key = "Sam_Wounded_Leader_Dummy",
 			effect_scope = "faction_to_faction_own_unseen",
 			value = 1
+		},
+		{
+			effect_key = "wh_main_effect_growth_all",
+			effect_scope = "faction_to_province_own",
+			value = -0
 		}
 	},
 	wh3_main_sc_cth_cathay = {
@@ -489,6 +594,11 @@ local effect_groups = {
 			effect_key = "Sam_Wounded_Leader_Dummy",
 			effect_scope = "faction_to_faction_own_unseen",
 			value = 1
+		},
+		{
+			effect_key = "wh_main_effect_growth_all",
+			effect_scope = "faction_to_province_own",
+			value = -0
 		}
 	},
 	wh3_main_sc_ksl_kislev = {
@@ -511,6 +621,11 @@ local effect_groups = {
 			effect_key = "Sam_Wounded_Leader_Dummy",
 			effect_scope = "faction_to_faction_own_unseen",
 			value = 1
+		},
+		{
+			effect_key = "wh_main_effect_growth_all",
+			effect_scope = "faction_to_province_own",
+			value = -0
 		}
 	},
 	wh3_main_sc_ogr_ogre_kingdoms = {
@@ -533,13 +648,18 @@ local effect_groups = {
 			effect_key = "Sam_Wounded_Leader_Dummy",
 			effect_scope = "faction_to_faction_own_unseen",
 			value = 1
+		},
+		{
+			effect_key = "wh_main_effect_growth_all",
+			effect_scope = "faction_to_province_own",
+			value = -0
 		}
 	},
 	wh2_dlc09_tmb_khemri = {
 		{
 			effect_key = "wh3_main_effect_winds_of_magic_events",
 			effect_scope = "faction_to_force_own",
-			value = -7.5
+			value = -0
 		},
 		{
 			effect_key = "wh2_main_effect_building_construction_time_mod_all",
@@ -565,18 +685,23 @@ local effect_groups = {
 			effect_key = "Sam_Wounded_Leader_Dummy",
 			effect_scope = "faction_to_faction_own_unseen",
 			value = 1
+		},
+		{
+			effect_key = "wh_main_effect_growth_all",
+			effect_scope = "faction_to_province_own",
+			value = -0
 		}
 	},
 	wh2_dlc09_tmb_followers_of_nagash = {
 		{
 			effect_key = "wh3_main_effect_winds_of_magic_events",
 			effect_scope = "faction_to_force_own",
-			value = -7.5
+			value = -0
 		},
 		{
 			effect_key = "wh3_main_effect_winds_of_magic_events",
 			effect_scope = "faction_to_force_own",
-			value = -7.5
+			value = -0
 		},
 		{
 			effect_key = "wh_main_effect_agent_action_success_chance",
@@ -597,18 +722,23 @@ local effect_groups = {
 			effect_key = "Sam_Wounded_Leader_Dummy",
 			effect_scope = "faction_to_faction_own_unseen",
 			value = 1
+		},
+		{
+			effect_key = "wh_main_effect_growth_all",
+			effect_scope = "faction_to_province_own",
+			value = -0
 		}
 	},
 	wh2_dlc09_tmb_lybaras = {
 		{
 			effect_key = "wh3_main_effect_winds_of_magic_events",
 			effect_scope = "faction_to_force_own",
-			value = -7.5
+			value = -0
 		},
 		{
 			effect_key = "wh3_main_effect_winds_of_magic_events",
 			effect_scope = "faction_to_force_own",
-			value = -7.5
+			value = -0
 		},
 		{
 			effect_key = "wh_main_effect_agent_action_success_chance",
@@ -629,18 +759,23 @@ local effect_groups = {
 			effect_key = "Sam_Wounded_Leader_Dummy",
 			effect_scope = "faction_to_faction_own_unseen",
 			value = 1
+		},
+		{
+			effect_key = "wh_main_effect_growth_all",
+			effect_scope = "faction_to_province_own",
+			value = -0
 		}
 	},
 	wh2_dlc09_tmb_exiles_of_nehek = {
 		{
 			effect_key = "wh3_main_effect_winds_of_magic_events",
 			effect_scope = "faction_to_force_own",
-			value = -7.5
+			value = -0
 		},
 		{
 			effect_key = "wh3_main_effect_winds_of_magic_events",
 			effect_scope = "faction_to_force_own",
-			value = -7.5
+			value = -0
 		},
 		{
 			effect_key = "wh_main_effect_agent_action_success_chance",
@@ -661,6 +796,11 @@ local effect_groups = {
 			effect_key = "Sam_Wounded_Leader_Dummy",
 			effect_scope = "faction_to_faction_own_unseen",
 			value = 1
+		},
+		{
+			effect_key = "wh_main_effect_growth_all",
+			effect_scope = "faction_to_province_own",
+			value = -0
 		}
 	},
 	wh2_dlc11_cst_noctilus = {
@@ -693,6 +833,11 @@ local effect_groups = {
 			effect_key = "Sam_Wounded_Leader_Dummy",
 			effect_scope = "faction_to_faction_own_unseen",
 			value = 1
+		},
+		{
+			effect_key = "wh_main_effect_growth_all",
+			effect_scope = "faction_to_province_own",
+			value = -0
 		}
 	},
 	wh2_dlc11_cst_pirates_of_sartosa = {
@@ -725,13 +870,18 @@ local effect_groups = {
 			effect_key = "Sam_Wounded_Leader_Dummy",
 			effect_scope = "faction_to_faction_own_unseen",
 			value = 1
+		},
+		{
+			effect_key = "wh_main_effect_growth_all",
+			effect_scope = "faction_to_province_own",
+			value = -0
 		}
 	},
 	wh2_dlc11_cst_the_drowned = {
 		{
 			effect_key = "wh3_main_effect_winds_of_magic_events",
 			effect_scope = "faction_to_force_own",
-			value = -7.5
+			value = -0
 		},
 		{
 			effect_key = "wh_main_effect_character_stat_mod_miscast_chance",
@@ -757,6 +907,11 @@ local effect_groups = {
 			effect_key = "Sam_Wounded_Leader_Dummy",
 			effect_scope = "faction_to_faction_own_unseen",
 			value = 1
+		},
+		{
+			effect_key = "wh_main_effect_growth_all",
+			effect_scope = "faction_to_province_own",
+			value = -0
 		}
 	},
 	wh2_dlc11_cst_vampire_coast = {
@@ -789,6 +944,11 @@ local effect_groups = {
 			effect_key = "Sam_Wounded_Leader_Dummy",
 			effect_scope = "faction_to_faction_own_unseen",
 			value = 1
+		},
+		{
+			effect_key = "wh_main_effect_growth_all",
+			effect_scope = "faction_to_province_own",
+			value = -0
 		}
 	},
 	wh2_dlc11_def_the_blessed_dread = {
@@ -800,7 +960,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_force_stat_melee_attack",
 			effect_scope = "faction_to_force_own",
-			value = -6.75
+			value = -0
 		},
 		{
 			effect_key = "wh_main_effect_agent_action_success_chance",
@@ -821,13 +981,18 @@ local effect_groups = {
 			effect_key = "Sam_Wounded_Leader_Dummy",
 			effect_scope = "faction_to_faction_own_unseen",
 			value = 1
+		},
+		{
+			effect_key = "wh_main_effect_growth_all",
+			effect_scope = "faction_to_province_own",
+			value = -0
 		}
 	},
 	wh2_main_def_cult_of_pleasure = {
 		{
 			effect_key = "wh3_main_effect_winds_of_magic_events",
 			effect_scope = "faction_to_force_own",
-			value = -7.5
+			value = -0
 		},
 		{
 			effect_key = "wh_main_effect_agent_action_cost_mod",
@@ -853,6 +1018,11 @@ local effect_groups = {
 			effect_key = "Sam_Wounded_Leader_Dummy",
 			effect_scope = "faction_to_faction_own_unseen",
 			value = 1
+		},
+		{
+			effect_key = "wh_main_effect_growth_all",
+			effect_scope = "faction_to_province_own",
+			value = -0
 		}
 	},
 	wh2_main_def_naggarond = {
@@ -880,18 +1050,23 @@ local effect_groups = {
 			effect_key = "Sam_Wounded_Leader_Dummy",
 			effect_scope = "faction_to_faction_own_unseen",
 			value = 1
+		},
+		{
+			effect_key = "wh_main_effect_growth_all",
+			effect_scope = "faction_to_province_own",
+			value = -0
 		}
 	},
 	wh2_main_def_hag_graef = {
 		{
 			effect_key = "wh_main_effect_force_stat_leadership",
 			effect_scope = "faction_to_force_own",
-			value = -6.75
+			value = -0
 		},
 		{
 			effect_key = "wh3_main_effect_corruption_chaos_events_bad",
 			effect_scope = "faction_to_region_own",
-			value = 5.75
+			value = 0
 		},
 		{
 			effect_key = "wh_main_effect_agent_action_success_chance",
@@ -912,13 +1087,18 @@ local effect_groups = {
 			effect_key = "Sam_Wounded_Leader_Dummy",
 			effect_scope = "faction_to_faction_own_unseen",
 			value = 1
+		},
+		{
+			effect_key = "wh_main_effect_growth_all",
+			effect_scope = "faction_to_province_own",
+			value = -0
 		}
 	},
 	wh2_main_def_har_ganeth = {
 		{
 			effect_key = "wh_main_effect_force_stat_melee_attack",
 			effect_scope = "faction_to_force_own",
-			value = -6.75
+			value = -0
 		},
 		{
 			effect_key = "wh_main_effect_force_stat_charge_bonus_pct",
@@ -930,7 +1110,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_force_stat_melee_attack",
 			effect_scope = "faction_to_force_own",
-			value = -6.75
+			value = -0
 		},
 		{
 			effect_key = "wh_main_effect_force_stat_charge_bonus_pct",
@@ -956,13 +1136,23 @@ local effect_groups = {
 			effect_key = "Sam_Wounded_Leader_Dummy",
 			effect_scope = "faction_to_faction_own_unseen",
 			value = 1
+		},
+		{
+			effect_key = "wh_main_effect_growth_all",
+			effect_scope = "faction_to_province_own",
+			value = -0
+		},
+		{
+			effect_key = "wh_main_effect_growth_all",
+			effect_scope = "faction_to_province_own",
+			value = -0
 		}
 	},
 	wh2_main_hef_avelorn = {
 		{
 			effect_key = "wh3_main_effect_winds_of_magic_events",
 			effect_scope = "faction_to_force_own",
-			value = -7.5
+			value = -0
 		},
 		{
 			effect_key = "wh_main_effect_public_order_events",
@@ -983,6 +1173,11 @@ local effect_groups = {
 			effect_key = "Sam_Wounded_Leader_Dummy",
 			effect_scope = "faction_to_faction_own_unseen",
 			value = 1
+		},
+		{
+			effect_key = "wh_main_effect_growth_all",
+			effect_scope = "faction_to_province_own",
+			value = -0
 		}
 	},
 	wh2_main_hef_eataine = {
@@ -994,7 +1189,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_force_stat_melee_defence",
 			effect_scope = "faction_to_force_own",
-			value = -0
+			value = -5
 		},
 		{
 			effect_key = "wh_main_effect_agent_action_success_chance",
@@ -1015,6 +1210,11 @@ local effect_groups = {
 			effect_key = "Sam_Wounded_Leader_Dummy",
 			effect_scope = "faction_to_faction_own_unseen",
 			value = 1
+		},
+		{
+			effect_key = "wh_main_effect_growth_all",
+			effect_scope = "faction_to_province_own",
+			value = -0
 		}
 	},
 	wh2_main_hef_nagarythe = {
@@ -1047,13 +1247,18 @@ local effect_groups = {
 			effect_key = "Sam_Wounded_Leader_Dummy",
 			effect_scope = "faction_to_faction_own_unseen",
 			value = 1
+		},
+		{
+			effect_key = "wh_main_effect_growth_all",
+			effect_scope = "faction_to_province_own",
+			value = -0
 		}
 	},
 	wh2_main_hef_order_of_loremasters = {
 		{
 			effect_key = "wh3_main_effect_winds_of_magic_events",
 			effect_scope = "faction_to_force_own",
-			value = -7.5
+			value = -0
 		},
 		{
 			effect_key = "wh_main_effect_character_stat_mod_miscast_chance",
@@ -1079,6 +1284,11 @@ local effect_groups = {
 			effect_key = "Sam_Wounded_Leader_Dummy",
 			effect_scope = "faction_to_faction_own_unseen",
 			value = 1
+		},
+		{
+			effect_key = "wh_main_effect_growth_all",
+			effect_scope = "faction_to_province_own",
+			value = -0
 		}
 	},
 	wh2_main_hef_yvresse = {
@@ -1090,7 +1300,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_force_stat_melee_defence",
 			effect_scope = "faction_to_force_own",
-			value = -0
+			value = -5
 		},
 		{
 			effect_key = "wh_main_effect_agent_action_success_chance",
@@ -1111,6 +1321,11 @@ local effect_groups = {
 			effect_key = "Sam_Wounded_Leader_Dummy",
 			effect_scope = "faction_to_faction_own_unseen",
 			value = 1
+		},
+		{
+			effect_key = "wh_main_effect_growth_all",
+			effect_scope = "faction_to_province_own",
+			value = -0
 		}
 	},
 	wh2_dlc15_hef_imrik = {
@@ -1143,6 +1358,11 @@ local effect_groups = {
 			effect_key = "Sam_Wounded_Leader_Dummy",
 			effect_scope = "faction_to_faction_own_unseen",
 			value = 1
+		},
+		{
+			effect_key = "wh_main_effect_growth_all",
+			effect_scope = "faction_to_province_own",
+			value = -0
 		}
 	},
 	wh2_dlc12_lzd_cult_of_sotek = {
@@ -1154,7 +1374,7 @@ local effect_groups = {
 		{
 			effect_key = "wh3_main_effect_corruption_chaos_events_bad",
 			effect_scope = "faction_to_region_own",
-			value = 5.75
+			value = 0
 		},
 		{
 			effect_key = "wh_main_effect_agent_action_success_chance",
@@ -1175,6 +1395,11 @@ local effect_groups = {
 			effect_key = "Sam_Wounded_Leader_Dummy",
 			effect_scope = "faction_to_faction_own_unseen",
 			value = 1
+		},
+		{
+			effect_key = "wh_main_effect_growth_all",
+			effect_scope = "faction_to_province_own",
+			value = -0
 		}
 	},
 	wh2_dlc13_lzd_spirits_of_the_jungle = {
@@ -1207,43 +1432,16 @@ local effect_groups = {
 			effect_key = "Sam_Wounded_Leader_Dummy",
 			effect_scope = "faction_to_faction_own_unseen",
 			value = 1
+		},
+		{
+			effect_key = "wh_main_effect_growth_all",
+			effect_scope = "faction_to_province_own",
+			value = -0
 		}
 	},
 	wh2_main_lzd_hexoatl = {
 		{
 			effect_key = "wh3_main_effect_winds_of_magic_events",
-			effect_scope = "faction_to_force_own",
-			value = -7.5
-		},
-		{
-			effect_key = "wh_main_effect_agent_action_success_chance",
-			effect_scope = "faction_to_character_own",
-			value = 5
-		},
-		{
-			effect_key = "wh_main_effect_public_order_events",
-			effect_scope = "faction_to_province_own_factionwide",
-			value = -5
-		},
-		{
-			effect_key = "wh_main_effect_force_unit_stat_morale",
-			effect_scope = "faction_to_force_own",
-			value = -5
-		},
-		{
-			effect_key = "Sam_Wounded_Leader_Dummy",
-			effect_scope = "faction_to_faction_own_unseen",
-			value = 1
-		}
-	},
-	wh2_main_lzd_itza = {
-		{
-			effect_key = "wh_main_effect_force_stat_leadership",
-			effect_scope = "faction_to_force_own",
-			value = -6.75
-		},
-		{
-			effect_key = "wh_main_effect_force_stat_melee_defence",
 			effect_scope = "faction_to_force_own",
 			value = -0
 		},
@@ -1266,13 +1464,55 @@ local effect_groups = {
 			effect_key = "Sam_Wounded_Leader_Dummy",
 			effect_scope = "faction_to_faction_own_unseen",
 			value = 1
+		},
+		{
+			effect_key = "wh_main_effect_growth_all",
+			effect_scope = "faction_to_province_own",
+			value = -0
+		}
+	},
+	wh2_main_lzd_itza = {
+		{
+			effect_key = "wh_main_effect_force_stat_leadership",
+			effect_scope = "faction_to_force_own",
+			value = -0
+		},
+		{
+			effect_key = "wh_main_effect_force_stat_melee_defence",
+			effect_scope = "faction_to_force_own",
+			value = -5
+		},
+		{
+			effect_key = "wh_main_effect_agent_action_success_chance",
+			effect_scope = "faction_to_character_own",
+			value = 5
+		},
+		{
+			effect_key = "wh_main_effect_public_order_events",
+			effect_scope = "faction_to_province_own_factionwide",
+			value = -5
+		},
+		{
+			effect_key = "wh_main_effect_force_unit_stat_morale",
+			effect_scope = "faction_to_force_own",
+			value = -5
+		},
+		{
+			effect_key = "Sam_Wounded_Leader_Dummy",
+			effect_scope = "faction_to_faction_own_unseen",
+			value = 1
+		},
+		{
+			effect_key = "wh_main_effect_growth_all",
+			effect_scope = "faction_to_province_own",
+			value = -0
 		}
 	},
 	wh2_main_lzd_last_defenders = {
 		{
 			effect_key = "wh_main_effect_force_stat_melee_attack",
 			effect_scope = "faction_to_force_own",
-			value = -6.75
+			value = -0
 		},
 		{
 			effect_key = "wh_main_effect_force_stat_charge_bonus_pct",
@@ -1298,13 +1538,18 @@ local effect_groups = {
 			effect_key = "Sam_Wounded_Leader_Dummy",
 			effect_scope = "faction_to_faction_own_unseen",
 			value = 1
+		},
+		{
+			effect_key = "wh_main_effect_growth_all",
+			effect_scope = "faction_to_province_own",
+			value = -0
 		}
 	},
 	wh2_main_lzd_tlaqua = {
 		{
 			effect_key = "wh3_main_effect_winds_of_magic_events",
 			effect_scope = "faction_to_force_own",
-			value = -7.5
+			value = -0
 		},
 		{
 			effect_key = "wh_main_effect_force_stat_speed",
@@ -1330,13 +1575,18 @@ local effect_groups = {
 			effect_key = "Sam_Wounded_Leader_Dummy",
 			effect_scope = "faction_to_faction_own_unseen",
 			value = 1
+		},
+		{
+			effect_key = "wh_main_effect_growth_all",
+			effect_scope = "faction_to_province_own",
+			value = -0
 		}
 	},
 	wh2_dlc17_lzd_oxyotl = {
 		{
 			effect_key = "wh_main_effect_force_stat_leadership",
 			effect_scope = "faction_to_force_own",
-			value = -6.75
+			value = -0
 		},
 		{
 			effect_key = "wh_main_effect_force_stat_speed",
@@ -1357,6 +1607,11 @@ local effect_groups = {
 			effect_key = "Sam_Wounded_Leader_Dummy",
 			effect_scope = "faction_to_faction_own_unseen",
 			value = 1
+		},
+		{
+			effect_key = "wh_main_effect_growth_all",
+			effect_scope = "faction_to_province_own",
+			value = -0
 		}
 	},
 	wh2_dlc09_skv_clan_rictus = {
@@ -1389,6 +1644,11 @@ local effect_groups = {
 			effect_key = "Sam_Wounded_Leader_Dummy",
 			effect_scope = "faction_to_faction_own_unseen",
 			value = 1
+		},
+		{
+			effect_key = "wh_main_effect_growth_all",
+			effect_scope = "faction_to_province_own",
+			value = -0
 		}
 	},
 	wh2_main_skv_clan_eshin = {
@@ -1421,13 +1681,18 @@ local effect_groups = {
 			effect_key = "Sam_Wounded_Leader_Dummy",
 			effect_scope = "faction_to_faction_own_unseen",
 			value = 1
+		},
+		{
+			effect_key = "wh_main_effect_growth_all",
+			effect_scope = "faction_to_province_own",
+			value = -0
 		}
 	},
 	wh2_main_skv_clan_mors = {
 		{
 			effect_key = "wh_main_effect_force_stat_melee_attack",
 			effect_scope = "faction_to_force_own",
-			value = -6.75
+			value = -0
 		},
 		{
 			effect_key = "wh2_main_effect_character_mod_loyalty_new_turn",
@@ -1453,13 +1718,18 @@ local effect_groups = {
 			effect_key = "Sam_Wounded_Leader_Dummy",
 			effect_scope = "faction_to_faction_own_unseen",
 			value = 1
+		},
+		{
+			effect_key = "wh_main_effect_growth_all",
+			effect_scope = "faction_to_province_own",
+			value = -0
 		}
 	},
 	wh2_main_skv_clan_pestilens = {
 		{
 			effect_key = "wh3_main_effect_winds_of_magic_events",
 			effect_scope = "faction_to_force_own",
-			value = -7.5
+			value = -0
 		},
 		{
 			effect_key = "wh2_main_effect_character_mod_loyalty_new_turn",
@@ -1517,13 +1787,18 @@ local effect_groups = {
 			effect_key = "Sam_Wounded_Leader_Dummy",
 			effect_scope = "faction_to_faction_own_unseen",
 			value = 1
+		},
+		{
+			effect_key = "wh_main_effect_growth_all",
+			effect_scope = "faction_to_province_own",
+			value = -0
 		}
 	},
 	wh2_main_skv_clan_moulder = {
 		{
 			effect_key = "wh_main_effect_force_stat_melee_attack",
 			effect_scope = "faction_to_force_own",
-			value = -6.75
+			value = -0
 		},
 		{
 			effect_key = "wh_main_effect_force_stat_charge_bonus_pct",
@@ -1549,18 +1824,23 @@ local effect_groups = {
 			effect_key = "Sam_Wounded_Leader_Dummy",
 			effect_scope = "faction_to_faction_own_unseen",
 			value = 1
+		},
+		{
+			effect_key = "wh_main_effect_growth_all",
+			effect_scope = "faction_to_province_own",
+			value = -0
 		}
 	},
 	wh_dlc05_wef_argwylon = {
 		{
 			effect_key = "wh3_main_effect_winds_of_magic_events",
 			effect_scope = "faction_to_force_own",
-			value = -7.5
+			value = -0
 		},
 		{
 			effect_key = "wh_main_effect_force_stat_melee_defence",
 			effect_scope = "faction_to_force_own",
-			value = -0
+			value = -5
 		},
 		{
 			effect_key = "wh_main_effect_agent_action_success_chance",
@@ -1581,13 +1861,18 @@ local effect_groups = {
 			effect_key = "Sam_Wounded_Leader_Dummy",
 			effect_scope = "faction_to_faction_own_unseen",
 			value = 1
+		},
+		{
+			effect_key = "wh_main_effect_growth_all",
+			effect_scope = "faction_to_province_own",
+			value = -0
 		}
 	},
 	wh_dlc05_wef_wood_elves = {
 		{
 			effect_key = "wh_main_effect_force_stat_leadership",
 			effect_scope = "faction_to_force_own",
-			value = -6.75
+			value = -0
 		},
 		{
 			effect_key = "wh_main_effect_force_stat_missile_damage",
@@ -1613,13 +1898,18 @@ local effect_groups = {
 			effect_key = "Sam_Wounded_Leader_Dummy",
 			effect_scope = "faction_to_faction_own_unseen",
 			value = 1
+		},
+		{
+			effect_key = "wh_main_effect_growth_all",
+			effect_scope = "faction_to_province_own",
+			value = -0
 		}
 	},
 	wh2_dlc16_wef_sisters_of_twilight = {
 		{
 			effect_key = "wh_main_effect_force_stat_leadership",
 			effect_scope = "faction_to_force_own",
-			value = -6.75
+			value = -0
 		},
 		{
 			effect_key = "wh_main_effect_force_stat_missile_damage",
@@ -1645,17 +1935,52 @@ local effect_groups = {
 			effect_key = "Sam_Wounded_Leader_Dummy",
 			effect_scope = "faction_to_faction_own_unseen",
 			value = 1
+		},
+		{
+			effect_key = "wh_main_effect_growth_all",
+			effect_scope = "faction_to_province_own",
+			value = -0
 		}
 	},
 	wh2_dlc16_wef_drycha = {
 		{
 			effect_key = "wh3_main_effect_winds_of_magic_events",
 			effect_scope = "faction_to_force_own",
-			value = -7.5
+			value = -0
 		},
 		{
 			effect_key = "wh_main_effect_force_stat_melee_defence",
 			effect_scope = "faction_to_force_own",
+			value = -5
+		},
+		{
+			effect_key = "wh_main_effect_force_stat_missile_damage",
+			effect_scope = "faction_to_force_own",
+			value = -0
+		},
+		{
+			effect_key = "wh_main_effect_agent_action_success_chance",
+			effect_scope = "faction_to_character_own",
+			value = 5
+		},
+		{
+			effect_key = "wh_main_effect_public_order_events",
+			effect_scope = "faction_to_province_own_factionwide",
+			value = -5
+		},
+		{
+			effect_key = "wh_main_effect_force_unit_stat_morale",
+			effect_scope = "faction_to_force_own",
+			value = -5
+		},
+		{
+			effect_key = "Sam_Wounded_Leader_Dummy",
+			effect_scope = "faction_to_faction_own_unseen",
+			value = 1
+		},
+		{
+			effect_key = "wh_main_effect_growth_all",
+			effect_scope = "faction_to_province_own",
 			value = -0
 		}
 	},
@@ -1668,7 +1993,7 @@ local effect_groups = {
 		{
 			effect_key = "wh3_main_effect_corruption_chaos_events_bad",
 			effect_scope = "faction_to_region_own",
-			value = 5.75
+			value = 0
 		},
 		{
 			effect_key = "wh_main_effect_agent_action_success_chance",
@@ -1689,18 +2014,18 @@ local effect_groups = {
 			effect_key = "Sam_Wounded_Leader_Dummy",
 			effect_scope = "faction_to_faction_own_unseen",
 			value = 1
+		},
+		{
+			effect_key = "wh_main_effect_growth_all",
+			effect_scope = "faction_to_province_own",
+			value = -0
 		}
 	},
 	wh_main_brt_bordeleaux = {
 		{
 			effect_key = "wh_main_effect_force_stat_charge_bonus_pct",
 			effect_scope = "faction_to_force_own",
-			value = -0
-		},
-		{
-			effect_key = "wh_main_effect_growth_all",
-			effect_scope = "faction_to_province_own",
-			value = -0
+			value = -15
 		},
 		{
 			effect_key = "wh_main_effect_agent_action_success_chance",
@@ -1721,18 +2046,23 @@ local effect_groups = {
 			effect_key = "Sam_Wounded_Leader_Dummy",
 			effect_scope = "faction_to_faction_own_unseen",
 			value = 1
+		},
+		{
+			effect_key = "wh_main_effect_growth_all",
+			effect_scope = "faction_to_province_own",
+			value = -0
 		}
 	},
 	wh_main_brt_bretonnia = {
 		{
 			effect_key = "wh_main_effect_force_all_campaign_upkeep",
 			effect_scope = "faction_to_force_own",
-			value = 0
+			value = 5
 		},
 		{
 			effect_key = "wh_main_effect_force_stat_melee_defence",
 			effect_scope = "faction_to_force_own",
-			value = -0
+			value = -5
 		},
 		{
 			effect_key = "wh_main_effect_agent_action_success_chance",
@@ -1753,25 +2083,60 @@ local effect_groups = {
 			effect_key = "Sam_Wounded_Leader_Dummy",
 			effect_scope = "faction_to_faction_own_unseen",
 			value = 1
+		},
+		{
+			effect_key = "wh_main_effect_growth_all",
+			effect_scope = "faction_to_province_own",
+			value = -0
 		}
 	},
 	wh_main_brt_carcassonne = {
 		{
 			effect_key = "wh3_main_effect_winds_of_magic_events",
 			effect_scope = "faction_to_force_own",
-			value = -7.5
+			value = -0
 		},
 		{
-			effect_key = "wh2_main_effect_force_stat_miscast",
+			effect_key = "wh_main_effect_force_all_campaign_upkeep",
 			effect_scope = "faction_to_force_own",
-			value = 0
+			value = 5
+		},
+		{
+			effect_key = "wh_main_effect_force_stat_melee_defence",
+			effect_scope = "faction_to_force_own",
+			value = -5
+		},
+		{
+			effect_key = "wh_main_effect_agent_action_success_chance",
+			effect_scope = "faction_to_character_own",
+			value = 5
+		},
+		{
+			effect_key = "wh_main_effect_public_order_events",
+			effect_scope = "faction_to_province_own_factionwide",
+			value = -5
+		},
+		{
+			effect_key = "wh_main_effect_force_unit_stat_morale",
+			effect_scope = "faction_to_force_own",
+			value = -5
+		},
+		{
+			effect_key = "Sam_Wounded_Leader_Dummy",
+			effect_scope = "faction_to_faction_own_unseen",
+			value = 1
+		},
+		{
+			effect_key = "wh_main_effect_growth_all",
+			effect_scope = "faction_to_province_own",
+			value = -0
 		}
 	},
 	wh2_dlc13_emp_golden_order = {
 		{
 			effect_key = "wh3_main_effect_winds_of_magic_events",
 			effect_scope = "faction_to_force_own",
-			value = -7.5
+			value = -0
 		},
 		{
 			effect_key = "wh2_main_effect_force_stat_miscast",
@@ -1797,13 +2162,18 @@ local effect_groups = {
 			effect_key = "Sam_Wounded_Leader_Dummy",
 			effect_scope = "faction_to_faction_own_unseen",
 			value = 1
+		},
+		{
+			effect_key = "wh_main_effect_growth_all",
+			effect_scope = "faction_to_province_own",
+			value = -0
 		}
 	},
 	wh2_dlc13_emp_the_huntmarshals_expedition = {
 		{
 			effect_key = "wh_main_effect_force_stat_leadership",
 			effect_scope = "faction_to_force_own",
-			value = -6.75
+			value = -0
 		},
 		{
 			effect_key = "wh_main_effect_force_stat_missile_damage",
@@ -1820,7 +2190,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_force_stat_melee_defence",
 			effect_scope = "faction_to_force_own",
-			value = -0
+			value = -5
 		},
 		{
 			effect_key = "wh_main_effect_agent_action_success_chance",
@@ -1841,6 +2211,11 @@ local effect_groups = {
 			effect_key = "Sam_Wounded_Leader_Dummy",
 			effect_scope = "faction_to_faction_own_unseen",
 			value = 1
+		},
+		{
+			effect_key = "wh_main_effect_growth_all",
+			effect_scope = "faction_to_province_own",
+			value = -0
 		}
 	},
 	wh3_main_emp_cult_of_sigmar = {
@@ -1852,7 +2227,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_force_stat_melee_attack",
 			effect_scope = "faction_to_force_own",
-			value = -6.75
+			value = -0
 		},
 		{
 			effect_key = "wh_main_effect_agent_action_success_chance",
@@ -1873,6 +2248,11 @@ local effect_groups = {
 			effect_key = "Sam_Wounded_Leader_Dummy",
 			effect_scope = "faction_to_faction_own_unseen",
 			value = 1
+		},
+		{
+			effect_key = "wh_main_effect_growth_all",
+			effect_scope = "faction_to_province_own",
+			value = -0
 		}
 	},
 	wh_main_grn_crooked_moon = {
@@ -1884,7 +2264,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_force_stat_melee_attack",
 			effect_scope = "faction_to_force_own",
-			value = -6.75
+			value = -0
 		},
 		{
 			effect_key = "wh_main_effect_agent_action_success_chance",
@@ -1911,7 +2291,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_force_stat_charge_bonus_pct",
 			effect_scope = "faction_to_force_own",
-			value = -0
+			value = -15
 		},
 		{
 			effect_key = "wh_main_effect_force_stat_armour",
@@ -1937,13 +2317,18 @@ local effect_groups = {
 			effect_key = "Sam_Wounded_Leader_Dummy",
 			effect_scope = "faction_to_faction_own_unseen",
 			value = 1
+		},
+		{
+			effect_key = "wh_main_effect_growth_all",
+			effect_scope = "faction_to_province_own",
+			value = -0
 		}
 	},
 	wh_main_grn_orcs_of_the_bloody_hand = {
 		{
 			effect_key = "wh3_main_effect_winds_of_magic_events",
 			effect_scope = "faction_to_force_own",
-			value = -7.5
+			value = -0
 		},
 		{
 			effect_key = "wh2_main_effect_force_stat_miscast",
@@ -1969,6 +2354,11 @@ local effect_groups = {
 			effect_key = "Sam_Wounded_Leader_Dummy",
 			effect_scope = "faction_to_faction_own_unseen",
 			value = 1
+		},
+		{
+			effect_key = "wh_main_effect_growth_all",
+			effect_scope = "faction_to_province_own",
+			value = -0
 		}
 	},
 	wh2_dlc15_grn_bonerattlaz = {
@@ -1980,7 +2370,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_force_stat_leadership",
 			effect_scope = "faction_to_force_own",
-			value = -6.75
+			value = -0
 		},
 		{
 			effect_key = "wh_main_effect_agent_action_success_chance",
@@ -2001,13 +2391,18 @@ local effect_groups = {
 			effect_key = "Sam_Wounded_Leader_Dummy",
 			effect_scope = "faction_to_faction_own_unseen",
 			value = 1
+		},
+		{
+			effect_key = "wh_main_effect_growth_all",
+			effect_scope = "faction_to_province_own",
+			value = -0
 		}
 	},
 	wh2_dlc15_grn_broken_axe = {
 		{
 			effect_key = "wh_main_effect_force_stat_charge_bonus_pct",
 			effect_scope = "faction_to_force_own",
-			value = -0
+			value = -15
 		},
 		{
 			effect_key = "wh2_main_effect_force_all_campaign_sacking_income",
@@ -2033,6 +2428,11 @@ local effect_groups = {
 			effect_key = "Sam_Wounded_Leader_Dummy",
 			effect_scope = "faction_to_faction_own_unseen",
 			value = 1
+		},
+		{
+			effect_key = "wh_main_effect_growth_all",
+			effect_scope = "faction_to_province_own",
+			value = -0
 		}
 	},
 	wh_main_dwf_dwarfs = {
@@ -2044,7 +2444,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_force_stat_melee_defence",
 			effect_scope = "faction_to_force_own",
-			value = -0
+			value = -5
 		},
 		{
 			effect_key = "wh_main_effect_agent_action_success_chance",
@@ -2065,30 +2465,23 @@ local effect_groups = {
 			effect_key = "Sam_Wounded_Leader_Dummy",
 			effect_scope = "faction_to_faction_own_unseen",
 			value = 1
+		},
+		{
+			effect_key = "wh_main_effect_growth_all",
+			effect_scope = "faction_to_province_own",
+			value = -0
 		}
 	},
 	wh_main_dwf_karak_izor = {
 		{
 			effect_key = "wh3_main_effect_corruption_chaos_events_bad",
 			effect_scope = "faction_to_region_own",
-			value = 5.75
+			value = 0
 		},
 		{
-			effect_key = "wh_main_effect_faction_confederation_dummy",
-			effect_scope = "faction_to_faction_own_unseen",
-			value = 1
-		}
-	},
-	wh_main_dwf_karak_kadrin = {
-		{
-			effect_key = "wh_main_effect_force_stat_charge_bonus_pct",
+			effect_key = "wh_main_effect_force_stat_melee_defence",
 			effect_scope = "faction_to_force_own",
-			value = -0
-		},
-		{
-			effect_key = "wh_main_effect_force_stat_melee_attack",
-			effect_scope = "faction_to_force_own",
-			value = -6.75
+			value = -5
 		},
 		{
 			effect_key = "wh_main_effect_agent_action_success_chance",
@@ -2109,6 +2502,48 @@ local effect_groups = {
 			effect_key = "Sam_Wounded_Leader_Dummy",
 			effect_scope = "faction_to_faction_own_unseen",
 			value = 1
+		},
+		{
+			effect_key = "wh_main_effect_growth_all",
+			effect_scope = "faction_to_province_own",
+			value = -0
+		}
+	},
+	wh_main_dwf_karak_kadrin = {
+		{
+			effect_key = "wh_main_effect_force_stat_charge_bonus_pct",
+			effect_scope = "faction_to_force_own",
+			value = -15
+		},
+		{
+			effect_key = "wh_main_effect_force_stat_melee_attack",
+			effect_scope = "faction_to_force_own",
+			value = -0
+		},
+		{
+			effect_key = "wh_main_effect_agent_action_success_chance",
+			effect_scope = "faction_to_character_own",
+			value = 5
+		},
+		{
+			effect_key = "wh_main_effect_public_order_events",
+			effect_scope = "faction_to_province_own_factionwide",
+			value = -5
+		},
+		{
+			effect_key = "wh_main_effect_force_unit_stat_morale",
+			effect_scope = "faction_to_force_own",
+			value = -5
+		},
+		{
+			effect_key = "Sam_Wounded_Leader_Dummy",
+			effect_scope = "faction_to_faction_own_unseen",
+			value = 1
+		},
+		{
+			effect_key = "wh_main_effect_growth_all",
+			effect_scope = "faction_to_province_own",
+			value = -0
 		}
 	},
 	wh2_dlc17_dwf_thorek_ironbrow = {
@@ -2120,7 +2555,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_force_stat_melee_defence",
 			effect_scope = "faction_to_force_own",
-			value = -0
+			value = -5
 		},
 		{
 			effect_key = "wh_main_effect_agent_action_success_chance",
@@ -2141,6 +2576,11 @@ local effect_groups = {
 			effect_key = "Sam_Wounded_Leader_Dummy",
 			effect_scope = "faction_to_faction_own_unseen",
 			value = 1
+		},
+		{
+			effect_key = "wh_main_effect_growth_all",
+			effect_scope = "faction_to_province_own",
+			value = -0
 		}
 	},
 	wh3_main_dwf_the_ancestral_throng = {
@@ -2152,7 +2592,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_force_stat_melee_defence",
 			effect_scope = "faction_to_force_own",
-			value = -0
+			value = -5
 		},
 		{
 			effect_key = "wh_main_effect_agent_action_success_chance",
@@ -2173,13 +2613,18 @@ local effect_groups = {
 			effect_key = "Sam_Wounded_Leader_Dummy",
 			effect_scope = "faction_to_faction_own_unseen",
 			value = 1
+		},
+		{
+			effect_key = "wh_main_effect_growth_all",
+			effect_scope = "faction_to_province_own",
+			value = -0
 		}
 	},
 	wh_dlc08_nor_norsca = {
 		{
 			effect_key = "wh_main_effect_force_stat_charge_bonus_pct",
 			effect_scope = "faction_to_force_own",
-			value = -0
+			value = -15
 		},
 		{
 			effect_key = "wh_main_effect_force_stat_weapon_strength",
@@ -2205,17 +2650,47 @@ local effect_groups = {
 			effect_key = "Sam_Wounded_Leader_Dummy",
 			effect_scope = "faction_to_faction_own_unseen",
 			value = 1
+		},
+		{
+			effect_key = "wh_main_effect_growth_all",
+			effect_scope = "faction_to_province_own",
+			value = -0
 		}
 	},
 	wh_dlc08_nor_wintertooth = {
 		{
 			effect_key = "wh_main_effect_force_stat_charge_bonus_pct",
 			effect_scope = "faction_to_force_own",
-			value = -0
+			value = -15
 		},
 		{
 			effect_key = "wh_main_effect_force_stat_weapon_strength",
 			effect_scope = "faction_to_force_own",
+			value = -0
+		},
+		{
+			effect_key = "wh_main_effect_agent_action_success_chance",
+			effect_scope = "faction_to_character_own",
+			value = 5
+		},
+		{
+			effect_key = "wh_main_effect_public_order_events",
+			effect_scope = "faction_to_province_own_factionwide",
+			value = -5
+		},
+		{
+			effect_key = "wh_main_effect_force_unit_stat_morale",
+			effect_scope = "faction_to_force_own",
+			value = -5
+		},
+		{
+			effect_key = "Sam_Wounded_Leader_Dummy",
+			effect_scope = "faction_to_faction_own_unseen",
+			value = 1
+		},
+		{
+			effect_key = "wh_main_effect_growth_all",
+			effect_scope = "faction_to_province_own",
 			value = -0
 		}
 	},
@@ -2223,7 +2698,7 @@ local effect_groups = {
 		{
 			effect_key = "wh3_main_effect_winds_of_magic_events",
 			effect_scope = "faction_to_force_own",
-			value = -7.5
+			value = -0
 		},
 		{
 			effect_key = "wh_main_effect_raise_dead_recruitment_cost_mod",
@@ -2249,6 +2724,11 @@ local effect_groups = {
 			effect_key = "Sam_Wounded_Leader_Dummy",
 			effect_scope = "faction_to_faction_own_unseen",
 			value = 1
+		},
+		{
+			effect_key = "wh_main_effect_growth_all",
+			effect_scope = "faction_to_province_own",
+			value = -0
 		}
 	},
 	wh_main_vmp_schwartzhafen = {
@@ -2260,7 +2740,7 @@ local effect_groups = {
 		{
 			effect_key = "wh3_main_effect_winds_of_magic_events",
 			effect_scope = "faction_to_force_own",
-			value = -7.5
+			value = -0
 		},
 		{
 			effect_key = "wh_main_effect_public_order_events",
@@ -2281,18 +2761,23 @@ local effect_groups = {
 			effect_key = "Sam_Wounded_Leader_Dummy",
 			effect_scope = "faction_to_faction_own_unseen",
 			value = 1
+		},
+		{
+			effect_key = "wh_main_effect_growth_all",
+			effect_scope = "faction_to_province_own",
+			value = -0
 		}
 	},
 	wh_main_vmp_vampire_counts = {
 		{
 			effect_key = "wh3_main_effect_winds_of_magic_events",
 			effect_scope = "faction_to_force_own",
-			value = -7.5
+			value = -0
 		},
 		{
 			effect_key = "wh_main_effect_raise_dead_recruitment_cost_mod",
 			effect_scope = "faction_to_character_own",
-			value = 0
+			value = 15
 		},
 		{
 			effect_key = "wh_main_effect_agent_action_success_chance",
@@ -2313,28 +2798,90 @@ local effect_groups = {
 			effect_key = "Sam_Wounded_Leader_Dummy",
 			effect_scope = "faction_to_faction_own_unseen",
 			value = 1
+		},
+		{
+			effect_key = "wh_main_effect_growth_all",
+			effect_scope = "faction_to_province_own",
+			value = -0
 		}
 	},
 	wh3_main_vmp_caravan_of_blue_roses = {
 		{
 			effect_key = "wh3_main_effect_winds_of_magic_events",
 			effect_scope = "faction_to_force_own",
-			value = -7.5
+			value = -0
 		},
 		{
 			effect_key = "wh_main_effect_raise_dead_recruitment_cost_mod",
 			effect_scope = "faction_to_character_own",
-			value = 0
+			value = 15
+		},
+		{
+			effect_key = "wh_main_effect_agent_action_success_chance",
+			effect_scope = "faction_to_character_own",
+			value = 5
+		},
+		{
+			effect_key = "wh_main_effect_public_order_events",
+			effect_scope = "faction_to_province_own_factionwide",
+			value = -5
+		},
+		{
+			effect_key = "wh_main_effect_force_unit_stat_morale",
+			effect_scope = "faction_to_force_own",
+			value = -5
+		},
+		{
+			effect_key = "Sam_Wounded_Leader_Dummy",
+			effect_scope = "faction_to_faction_own_unseen",
+			value = 1
+		},
+		{
+			effect_key = "wh_main_effect_growth_all",
+			effect_scope = "faction_to_province_own",
+			value = -0
 		}
 	},
 	wh3_main_nur_poxmakers_of_nurgle = {
 		{
 			effect_key = "wh3_main_effect_winds_of_magic_events",
 			effect_scope = "faction_to_force_own",
-			value = -7.5
+			value = -0
 		},
 		{
 			effect_key = "wh_main_effect_force_stat_melee_defence",
+			effect_scope = "faction_to_force_own",
+			value = -5
+		},
+		{
+			effect_key = "wh_main_effect_agent_action_success_chance",
+			effect_scope = "faction_to_character_own",
+			value = 5
+		},
+		{
+			effect_key = "wh_main_effect_public_order_events",
+			effect_scope = "faction_to_province_own_factionwide",
+			value = -5
+		},
+		{
+			effect_key = "wh_main_effect_force_unit_stat_morale",
+			effect_scope = "faction_to_force_own",
+			value = -5
+		},
+		{
+			effect_key = "wh_main_effect_growth_all",
+			effect_scope = "faction_to_province_own",
+			value = -0
+		}
+	},
+	wh3_main_kho_exiles_of_khorne = {
+		{
+			effect_key = "wh_main_effect_force_all_campaign_upkeep",
+			effect_scope = "faction_to_force_own",
+			value = 0
+		},
+		{
+			effect_key = "wh_main_effect_force_stat_melee_attack",
 			effect_scope = "faction_to_force_own",
 			value = -0
 		},
@@ -2357,45 +2904,18 @@ local effect_groups = {
 			effect_key = "Sam_Wounded_Leader_Dummy",
 			effect_scope = "faction_to_faction_own_unseen",
 			value = 1
-		}
-	},
-	wh3_main_kho_exiles_of_khorne = {
-		{
-			effect_key = "wh_main_effect_force_all_campaign_upkeep",
-			effect_scope = "faction_to_force_own",
-			value = 0
 		},
 		{
-			effect_key = "wh_main_effect_force_stat_melee_attack",
-			effect_scope = "faction_to_force_own",
-			value = -6.75
-		},
-		{
-			effect_key = "wh_main_effect_agent_action_success_chance",
-			effect_scope = "faction_to_character_own",
-			value = 5
-		},
-		{
-			effect_key = "wh_main_effect_public_order_events",
-			effect_scope = "faction_to_province_own_factionwide",
-			value = -5
-		},
-		{
-			effect_key = "wh_main_effect_force_unit_stat_morale",
-			effect_scope = "faction_to_force_own",
-			value = -5
-		},
-		{
-			effect_key = "Sam_Wounded_Leader_Dummy",
-			effect_scope = "faction_to_faction_own_unseen",
-			value = 1
+			effect_key = "wh_main_effect_growth_all",
+			effect_scope = "faction_to_province_own",
+			value = -0
 		}
 	},
 	wh3_main_tze_oracles_of_tzeentch = {
 		{
 			effect_key = "wh3_main_effect_winds_of_magic_events",
 			effect_scope = "faction_to_force_own",
-			value = -7.5
+			value = -0
 		},
 		{
 			effect_key = "wh2_main_effect_force_stat_miscast",
@@ -2421,6 +2941,11 @@ local effect_groups = {
 			effect_key = "Sam_Wounded_Leader_Dummy",
 			effect_scope = "faction_to_faction_own_unseen",
 			value = 1
+		},
+		{
+			effect_key = "wh_main_effect_growth_all",
+			effect_scope = "faction_to_province_own",
+			value = -0
 		}
 	},
 	wh3_main_sla_seducers_of_slaanesh = {
@@ -2453,6 +2978,11 @@ local effect_groups = {
 			effect_key = "Sam_Wounded_Leader_Dummy",
 			effect_scope = "faction_to_faction_own_unseen",
 			value = 1
+		},
+		{
+			effect_key = "wh_main_effect_growth_all",
+			effect_scope = "faction_to_province_own",
+			value = -0
 		}
 	},
 	wh3_main_dae_daemon_prince = {
@@ -2485,13 +3015,18 @@ local effect_groups = {
 			effect_key = "Sam_Wounded_Leader_Dummy",
 			effect_scope = "faction_to_faction_own_unseen",
 			value = 1
+		},
+		{
+			effect_key = "wh_main_effect_growth_all",
+			effect_scope = "faction_to_province_own",
+			value = -0
 		}
 	},
 	wh3_main_cth_the_northern_provinces = {
 		{
 			effect_key = "wh3_main_effect_winds_of_magic_events",
 			effect_scope = "faction_to_force_own",
-			value = -7.5
+			value = -0
 		},
 		{
 			effect_key = "wh_main_effect_force_stat_missile_damage",
@@ -2517,18 +3052,23 @@ local effect_groups = {
 			effect_key = "Sam_Wounded_Leader_Dummy",
 			effect_scope = "faction_to_faction_own_unseen",
 			value = 1
+		},
+		{
+			effect_key = "wh_main_effect_growth_all",
+			effect_scope = "faction_to_province_own",
+			value = -0
 		}
 	},
 	wh3_main_cth_the_western_provinces = {
 		{
 			effect_key = "wh3_main_effect_winds_of_magic_events",
 			effect_scope = "faction_to_force_own",
-			value = -7.5
+			value = -0
 		},
 		{
 			effect_key = "wh3_main_effect_corruption_chaos_events_bad",
 			effect_scope = "faction_to_region_own",
-			value = 5.75
+			value = 0
 		},
 		{
 			effect_key = "wh_main_effect_agent_action_success_chance",
@@ -2549,13 +3089,18 @@ local effect_groups = {
 			effect_key = "Sam_Wounded_Leader_Dummy",
 			effect_scope = "faction_to_faction_own_unseen",
 			value = 1
+		},
+		{
+			effect_key = "wh_main_effect_growth_all",
+			effect_scope = "faction_to_province_own",
+			value = -0
 		}
 	},
 	wh3_main_ksl_the_ice_court = {
 		{
 			effect_key = "wh3_main_effect_winds_of_magic_events",
 			effect_scope = "faction_to_force_own",
-			value = -7.5
+			value = -0
 		},
 		{
 			effect_key = "wh_main_effect_force_stat_melee_attack_vs_chaos_norsca",
@@ -2581,6 +3126,11 @@ local effect_groups = {
 			effect_key = "Sam_Wounded_Leader_Dummy",
 			effect_scope = "faction_to_faction_own_unseen",
 			value = 1
+		},
+		{
+			effect_key = "wh_main_effect_growth_all",
+			effect_scope = "faction_to_province_own",
+			value = -0
 		}
 	},
 	wh3_main_ksl_the_great_orthodoxy = {
@@ -2592,7 +3142,7 @@ local effect_groups = {
 		{
 			effect_key = "wh3_main_effect_corruption_chaos_events_bad",
 			effect_scope = "faction_to_region_own",
-			value = 5.75
+			value = 0
 		},
 		{
 			effect_key = "wh_main_effect_agent_action_success_chance",
@@ -2613,13 +3163,18 @@ local effect_groups = {
 			effect_key = "Sam_Wounded_Leader_Dummy",
 			effect_scope = "faction_to_faction_own_unseen",
 			value = 1
+		},
+		{
+			effect_key = "wh_main_effect_growth_all",
+			effect_scope = "faction_to_province_own",
+			value = -0
 		}
 	},
 	wh3_main_ksl_ursun_revivalists = {
 		{
 			effect_key = "wh_main_effect_force_stat_charge_bonus_pct",
 			effect_scope = "faction_to_force_own",
-			value = -0
+			value = -15
 		},
 		{
 			effect_key = "wh_main_effect_force_stat_melee_attack_vs_chaos_norsca",
@@ -2645,11 +3200,53 @@ local effect_groups = {
 			effect_key = "Sam_Wounded_Leader_Dummy",
 			effect_scope = "faction_to_faction_own_unseen",
 			value = 1
+		},
+		{
+			effect_key = "wh_main_effect_growth_all",
+			effect_scope = "faction_to_province_own",
+			value = -0
 		}
 	},
 	wh3_main_ogr_goldtooth = {
 		{
 			effect_key = "wh_main_effect_force_stat_charge_bonus_pct",
+			effect_scope = "faction_to_force_own",
+			value = -15
+		},
+		{
+			effect_key = "wh2_main_effect_force_all_campaign_sacking_income",
+			effect_scope = "faction_to_character_own",
+			value = -15
+		},
+		{
+			effect_key = "wh_main_effect_agent_action_success_chance",
+			effect_scope = "faction_to_character_own",
+			value = 5
+		},
+		{
+			effect_key = "wh_main_effect_public_order_events",
+			effect_scope = "faction_to_province_own_factionwide",
+			value = -5
+		},
+		{
+			effect_key = "wh_main_effect_force_unit_stat_morale",
+			effect_scope = "faction_to_force_own",
+			value = -5
+		},
+		{
+			effect_key = "Sam_Wounded_Leader_Dummy",
+			effect_scope = "faction_to_faction_own_unseen",
+			value = 1
+		},
+		{
+			effect_key = "wh_main_effect_growth_all",
+			effect_scope = "faction_to_province_own",
+			value = -0
+		}
+	},
+	wh3_main_ogr_disciples_of_the_maw = {
+		{
+			effect_key = "wh3_main_effect_winds_of_magic_events",
 			effect_scope = "faction_to_force_own",
 			value = -0
 		},
@@ -2677,38 +3274,11 @@ local effect_groups = {
 			effect_key = "Sam_Wounded_Leader_Dummy",
 			effect_scope = "faction_to_faction_own_unseen",
 			value = 1
-		}
-	},
-	wh3_main_ogr_disciples_of_the_maw = {
-		{
-			effect_key = "wh3_main_effect_winds_of_magic_events",
-			effect_scope = "faction_to_force_own",
-			value = -7.5
 		},
 		{
-			effect_key = "wh2_main_effect_force_all_campaign_sacking_income",
-			effect_scope = "faction_to_character_own",
-			value = -15
-		},
-		{
-			effect_key = "wh_main_effect_agent_action_success_chance",
-			effect_scope = "faction_to_character_own",
-			value = 5
-		},
-		{
-			effect_key = "wh_main_effect_public_order_events",
-			effect_scope = "faction_to_province_own_factionwide",
-			value = -5
-		},
-		{
-			effect_key = "wh_main_effect_force_unit_stat_morale",
-			effect_scope = "faction_to_force_own",
-			value = -5
-		},
-		{
-			effect_key = "Sam_Wounded_Leader_Dummy",
-			effect_scope = "faction_to_faction_own_unseen",
-			value = 1
+			effect_key = "wh_main_effect_growth_all",
+			effect_scope = "faction_to_province_own",
+			value = -0
 		}
 	}
 };
