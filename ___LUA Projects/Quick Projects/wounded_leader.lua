@@ -891,7 +891,7 @@ local effect_groups = {
 		{
 			effect_key = "wh3_main_effect_corruption_chaos_events_bad",
 			effect_scope = "faction_to_region_own",
-			value = 0
+			value = 5.75
 		},
 		{
 			effect_key = "wh_main_effect_agent_action_success_chance",
@@ -1154,7 +1154,7 @@ local effect_groups = {
 		{
 			effect_key = "wh3_main_effect_corruption_chaos_events_bad",
 			effect_scope = "faction_to_region_own",
-			value = 0
+			value = 5.75
 		},
 		{
 			effect_key = "wh_main_effect_agent_action_success_chance",
@@ -1668,7 +1668,7 @@ local effect_groups = {
 		{
 			effect_key = "wh3_main_effect_corruption_chaos_events_bad",
 			effect_scope = "faction_to_region_own",
-			value = 0
+			value = 5.75
 		},
 		{
 			effect_key = "wh_main_effect_agent_action_success_chance",
@@ -2071,7 +2071,7 @@ local effect_groups = {
 		{
 			effect_key = "wh3_main_effect_corruption_chaos_events_bad",
 			effect_scope = "faction_to_region_own",
-			value = 0
+			value = 5.75
 		},
 		{
 			effect_key = "wh_main_effect_faction_confederation_dummy",
@@ -2528,7 +2528,7 @@ local effect_groups = {
 		{
 			effect_key = "wh3_main_effect_corruption_chaos_events_bad",
 			effect_scope = "faction_to_region_own",
-			value = 0
+			value = 5.75
 		},
 		{
 			effect_key = "wh_main_effect_agent_action_success_chance",
@@ -2592,7 +2592,7 @@ local effect_groups = {
 		{
 			effect_key = "wh3_main_effect_corruption_chaos_events_bad",
 			effect_scope = "faction_to_region_own",
-			value = 0
+			value = 5.75
 		},
 		{
 			effect_key = "wh_main_effect_agent_action_success_chance",
