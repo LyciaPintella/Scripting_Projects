@@ -26,7 +26,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_growth_all",
 			effect_scope = "faction_to_province_own",
-			value = -0
+			value = -12.5
 		}
 	},
 	wh2_dlc11_sc_cst_vampire_coast = {
@@ -53,7 +53,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_growth_all",
 			effect_scope = "faction_to_province_own",
-			value = -0
+			value = -12.5
 		}
 	},
 	wh2_main_sc_def_dark_elves = {
@@ -80,7 +80,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_growth_all",
 			effect_scope = "faction_to_province_own",
-			value = -0
+			value = -12.5
 		}
 	},
 	wh2_main_sc_hef_high_elves = {
@@ -107,7 +107,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_growth_all",
 			effect_scope = "faction_to_province_own",
-			value = -0
+			value = -12.5
 		}
 	},
 	wh2_main_sc_lzd_lizardmen = {
@@ -134,7 +134,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_growth_all",
 			effect_scope = "faction_to_province_own",
-			value = -0
+			value = -12.5
 		}
 	},
 	wh2_main_sc_skv_skaven = {
@@ -161,7 +161,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_growth_all",
 			effect_scope = "faction_to_province_own",
-			value = -0
+			value = -12.5
 		}
 	},
 	wh_dlc05_sc_wef_wood_elves = {
@@ -188,7 +188,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_growth_all",
 			effect_scope = "faction_to_province_own",
-			value = -0
+			value = -12.5
 		}
 	},
 	wh_main_sc_brt_bretonnia = {
@@ -215,7 +215,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_growth_all",
 			effect_scope = "faction_to_province_own",
-			value = -0
+			value = -12.5
 		}
 	},
 	wh_main_sc_emp_empire = {
@@ -247,7 +247,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_growth_all",
 			effect_scope = "faction_to_province_own",
-			value = -0
+			value = -12.5
 		}
 	},
 	wh_main_sc_ksl_kislev = {
@@ -274,7 +274,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_growth_all",
 			effect_scope = "faction_to_province_own",
-			value = -0
+			value = -12.5
 		}
 	},
 	wh_main_sc_teb_teb = {
@@ -301,7 +301,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_growth_all",
 			effect_scope = "faction_to_province_own",
-			value = -0
+			value = -12.5
 		}
 	},
 	wh_main_sc_dwf_dwarfs = {
@@ -328,7 +328,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_growth_all",
 			effect_scope = "faction_to_province_own",
-			value = -0
+			value = -12.5
 		}
 	},
 	wh_main_sc_grn_greenskins = {
@@ -355,7 +355,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_growth_all",
 			effect_scope = "faction_to_province_own",
-			value = -0
+			value = -12.5
 		}
 	},
 	wh_main_sc_grn_savage_orcs = {
@@ -382,7 +382,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_growth_all",
 			effect_scope = "faction_to_province_own",
-			value = -0
+			value = -12.5
 		}
 	},
 	wh_main_sc_nor_norsca = {
@@ -409,7 +409,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_growth_all",
 			effect_scope = "faction_to_province_own",
-			value = -0
+			value = -12.5
 		}
 	},
 	wh_main_sc_vmp_vampire_counts = {
@@ -436,7 +436,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_growth_all",
 			effect_scope = "faction_to_province_own",
-			value = -0
+			value = -12.5
 		}
 	},
 	wh3_main_sc_nur_nurgle = {
@@ -463,7 +463,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_growth_all",
 			effect_scope = "faction_to_province_own",
-			value = -0
+			value = -12.5
 		}
 	},
 	wh3_main_sc_kho_khorne = {
@@ -490,7 +490,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_growth_all",
 			effect_scope = "faction_to_province_own",
-			value = -0
+			value = -12.5
 		}
 	},
 	wh3_main_sc_tze_tzeentch = {
@@ -517,7 +517,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_growth_all",
 			effect_scope = "faction_to_province_own",
-			value = -0
+			value = -12.5
 		}
 	},
 	wh3_main_sc_sla_slaanesh = {
@@ -544,7 +544,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_growth_all",
 			effect_scope = "faction_to_province_own",
-			value = -0
+			value = -12.5
 		}
 	},
 	wh3_main_sc_dae_daemons = {
@@ -571,7 +571,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_growth_all",
 			effect_scope = "faction_to_province_own",
-			value = -0
+			value = -12.5
 		}
 	},
 	wh3_main_sc_cth_cathay = {
@@ -598,7 +598,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_growth_all",
 			effect_scope = "faction_to_province_own",
-			value = -0
+			value = -12.5
 		}
 	},
 	wh3_main_sc_ksl_kislev = {
@@ -625,7 +625,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_growth_all",
 			effect_scope = "faction_to_province_own",
-			value = -0
+			value = -12.5
 		}
 	},
 	wh3_main_sc_ogr_ogre_kingdoms = {
@@ -652,7 +652,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_growth_all",
 			effect_scope = "faction_to_province_own",
-			value = -0
+			value = -12.5
 		}
 	},
 	wh2_dlc09_tmb_khemri = {
@@ -689,7 +689,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_growth_all",
 			effect_scope = "faction_to_province_own",
-			value = -0
+			value = -12.5
 		}
 	},
 	wh2_dlc09_tmb_followers_of_nagash = {
@@ -726,7 +726,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_growth_all",
 			effect_scope = "faction_to_province_own",
-			value = -0
+			value = -12.5
 		}
 	},
 	wh2_dlc09_tmb_lybaras = {
@@ -763,7 +763,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_growth_all",
 			effect_scope = "faction_to_province_own",
-			value = -0
+			value = -12.5
 		}
 	},
 	wh2_dlc09_tmb_exiles_of_nehek = {
@@ -800,7 +800,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_growth_all",
 			effect_scope = "faction_to_province_own",
-			value = -0
+			value = -12.5
 		}
 	},
 	wh2_dlc11_cst_noctilus = {
@@ -837,7 +837,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_growth_all",
 			effect_scope = "faction_to_province_own",
-			value = -0
+			value = -12.5
 		}
 	},
 	wh2_dlc11_cst_pirates_of_sartosa = {
@@ -874,7 +874,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_growth_all",
 			effect_scope = "faction_to_province_own",
-			value = -0
+			value = -12.5
 		}
 	},
 	wh2_dlc11_cst_the_drowned = {
@@ -911,7 +911,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_growth_all",
 			effect_scope = "faction_to_province_own",
-			value = -0
+			value = -12.5
 		}
 	},
 	wh2_dlc11_cst_vampire_coast = {
@@ -948,7 +948,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_growth_all",
 			effect_scope = "faction_to_province_own",
-			value = -0
+			value = -12.5
 		}
 	},
 	wh2_dlc11_def_the_blessed_dread = {
@@ -985,7 +985,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_growth_all",
 			effect_scope = "faction_to_province_own",
-			value = -0
+			value = -12.5
 		}
 	},
 	wh2_main_def_cult_of_pleasure = {
@@ -1022,7 +1022,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_growth_all",
 			effect_scope = "faction_to_province_own",
-			value = -0
+			value = -12.5
 		}
 	},
 	wh2_main_def_naggarond = {
@@ -1054,7 +1054,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_growth_all",
 			effect_scope = "faction_to_province_own",
-			value = -0
+			value = -12.5
 		}
 	},
 	wh2_main_def_hag_graef = {
@@ -1091,7 +1091,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_growth_all",
 			effect_scope = "faction_to_province_own",
-			value = -0
+			value = -12.5
 		}
 	},
 	wh2_main_def_har_ganeth = {
@@ -1140,12 +1140,12 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_growth_all",
 			effect_scope = "faction_to_province_own",
-			value = -0
+			value = -12.5
 		},
 		{
 			effect_key = "wh_main_effect_growth_all",
 			effect_scope = "faction_to_province_own",
-			value = -0
+			value = -12.5
 		}
 	},
 	wh2_main_hef_avelorn = {
@@ -1177,7 +1177,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_growth_all",
 			effect_scope = "faction_to_province_own",
-			value = -0
+			value = -12.5
 		}
 	},
 	wh2_main_hef_eataine = {
@@ -1214,7 +1214,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_growth_all",
 			effect_scope = "faction_to_province_own",
-			value = -0
+			value = -12.5
 		}
 	},
 	wh2_main_hef_nagarythe = {
@@ -1251,7 +1251,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_growth_all",
 			effect_scope = "faction_to_province_own",
-			value = -0
+			value = -12.5
 		}
 	},
 	wh2_main_hef_order_of_loremasters = {
@@ -1288,7 +1288,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_growth_all",
 			effect_scope = "faction_to_province_own",
-			value = -0
+			value = -12.5
 		}
 	},
 	wh2_main_hef_yvresse = {
@@ -1325,7 +1325,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_growth_all",
 			effect_scope = "faction_to_province_own",
-			value = -0
+			value = -12.5
 		}
 	},
 	wh2_dlc15_hef_imrik = {
@@ -1362,7 +1362,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_growth_all",
 			effect_scope = "faction_to_province_own",
-			value = -0
+			value = -12.5
 		}
 	},
 	wh2_dlc12_lzd_cult_of_sotek = {
@@ -1399,7 +1399,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_growth_all",
 			effect_scope = "faction_to_province_own",
-			value = -0
+			value = -12.5
 		}
 	},
 	wh2_dlc13_lzd_spirits_of_the_jungle = {
@@ -1436,7 +1436,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_growth_all",
 			effect_scope = "faction_to_province_own",
-			value = -0
+			value = -12.5
 		}
 	},
 	wh2_main_lzd_hexoatl = {
@@ -1468,7 +1468,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_growth_all",
 			effect_scope = "faction_to_province_own",
-			value = -0
+			value = -12.5
 		}
 	},
 	wh2_main_lzd_itza = {
@@ -1505,7 +1505,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_growth_all",
 			effect_scope = "faction_to_province_own",
-			value = -0
+			value = -12.5
 		}
 	},
 	wh2_main_lzd_last_defenders = {
@@ -1542,7 +1542,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_growth_all",
 			effect_scope = "faction_to_province_own",
-			value = -0
+			value = -12.5
 		}
 	},
 	wh2_main_lzd_tlaqua = {
@@ -1579,7 +1579,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_growth_all",
 			effect_scope = "faction_to_province_own",
-			value = -0
+			value = -12.5
 		}
 	},
 	wh2_dlc17_lzd_oxyotl = {
@@ -1611,7 +1611,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_growth_all",
 			effect_scope = "faction_to_province_own",
-			value = -0
+			value = -12.5
 		}
 	},
 	wh2_dlc09_skv_clan_rictus = {
@@ -1648,7 +1648,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_growth_all",
 			effect_scope = "faction_to_province_own",
-			value = -0
+			value = -12.5
 		}
 	},
 	wh2_main_skv_clan_eshin = {
@@ -1685,7 +1685,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_growth_all",
 			effect_scope = "faction_to_province_own",
-			value = -0
+			value = -12.5
 		}
 	},
 	wh2_main_skv_clan_mors = {
@@ -1722,7 +1722,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_growth_all",
 			effect_scope = "faction_to_province_own",
-			value = -0
+			value = -12.5
 		}
 	},
 	wh2_main_skv_clan_pestilens = {
@@ -1791,7 +1791,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_growth_all",
 			effect_scope = "faction_to_province_own",
-			value = -0
+			value = -12.5
 		}
 	},
 	wh2_main_skv_clan_moulder = {
@@ -1828,7 +1828,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_growth_all",
 			effect_scope = "faction_to_province_own",
-			value = -0
+			value = -12.5
 		}
 	},
 	wh_dlc05_wef_argwylon = {
@@ -1865,7 +1865,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_growth_all",
 			effect_scope = "faction_to_province_own",
-			value = -0
+			value = -12.5
 		}
 	},
 	wh_dlc05_wef_wood_elves = {
@@ -1902,7 +1902,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_growth_all",
 			effect_scope = "faction_to_province_own",
-			value = -0
+			value = -12.5
 		}
 	},
 	wh2_dlc16_wef_sisters_of_twilight = {
@@ -1939,7 +1939,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_growth_all",
 			effect_scope = "faction_to_province_own",
-			value = -0
+			value = -12.5
 		}
 	},
 	wh2_dlc16_wef_drycha = {
@@ -1981,7 +1981,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_growth_all",
 			effect_scope = "faction_to_province_own",
-			value = -0
+			value = -12.5
 		}
 	},
 	wh2_dlc14_brt_chevaliers_de_lyonesse = {
@@ -2018,7 +2018,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_growth_all",
 			effect_scope = "faction_to_province_own",
-			value = -0
+			value = -12.5
 		}
 	},
 	wh_main_brt_bordeleaux = {
@@ -2050,7 +2050,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_growth_all",
 			effect_scope = "faction_to_province_own",
-			value = -0
+			value = -12.5
 		}
 	},
 	wh_main_brt_bretonnia = {
@@ -2087,7 +2087,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_growth_all",
 			effect_scope = "faction_to_province_own",
-			value = -0
+			value = -12.5
 		}
 	},
 	wh_main_brt_carcassonne = {
@@ -2129,7 +2129,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_growth_all",
 			effect_scope = "faction_to_province_own",
-			value = -0
+			value = -12.5
 		}
 	},
 	wh2_dlc13_emp_golden_order = {
@@ -2166,7 +2166,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_growth_all",
 			effect_scope = "faction_to_province_own",
-			value = -0
+			value = -12.5
 		}
 	},
 	wh2_dlc13_emp_the_huntmarshals_expedition = {
@@ -2215,7 +2215,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_growth_all",
 			effect_scope = "faction_to_province_own",
-			value = -0
+			value = -12.5
 		}
 	},
 	wh3_main_emp_cult_of_sigmar = {
@@ -2252,7 +2252,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_growth_all",
 			effect_scope = "faction_to_province_own",
-			value = -0
+			value = -12.5
 		}
 	},
 	wh_main_grn_crooked_moon = {
@@ -2321,7 +2321,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_growth_all",
 			effect_scope = "faction_to_province_own",
-			value = -0
+			value = -12.5
 		}
 	},
 	wh_main_grn_orcs_of_the_bloody_hand = {
@@ -2358,7 +2358,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_growth_all",
 			effect_scope = "faction_to_province_own",
-			value = -0
+			value = -12.5
 		}
 	},
 	wh2_dlc15_grn_bonerattlaz = {
@@ -2395,7 +2395,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_growth_all",
 			effect_scope = "faction_to_province_own",
-			value = -0
+			value = -12.5
 		}
 	},
 	wh2_dlc15_grn_broken_axe = {
@@ -2432,7 +2432,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_growth_all",
 			effect_scope = "faction_to_province_own",
-			value = -0
+			value = -12.5
 		}
 	},
 	wh_main_dwf_dwarfs = {
@@ -2469,7 +2469,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_growth_all",
 			effect_scope = "faction_to_province_own",
-			value = -0
+			value = -12.5
 		}
 	},
 	wh_main_dwf_karak_izor = {
@@ -2506,7 +2506,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_growth_all",
 			effect_scope = "faction_to_province_own",
-			value = -0
+			value = -12.5
 		}
 	},
 	wh_main_dwf_karak_kadrin = {
@@ -2543,7 +2543,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_growth_all",
 			effect_scope = "faction_to_province_own",
-			value = -0
+			value = -12.5
 		}
 	},
 	wh2_dlc17_dwf_thorek_ironbrow = {
@@ -2580,7 +2580,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_growth_all",
 			effect_scope = "faction_to_province_own",
-			value = -0
+			value = -12.5
 		}
 	},
 	wh3_main_dwf_the_ancestral_throng = {
@@ -2617,7 +2617,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_growth_all",
 			effect_scope = "faction_to_province_own",
-			value = -0
+			value = -12.5
 		}
 	},
 	wh_dlc08_nor_norsca = {
@@ -2654,7 +2654,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_growth_all",
 			effect_scope = "faction_to_province_own",
-			value = -0
+			value = -12.5
 		}
 	},
 	wh_dlc08_nor_wintertooth = {
@@ -2691,7 +2691,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_growth_all",
 			effect_scope = "faction_to_province_own",
-			value = -0
+			value = -12.5
 		}
 	},
 	wh2_dlc11_vmp_the_barrow_legion = {
@@ -2728,7 +2728,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_growth_all",
 			effect_scope = "faction_to_province_own",
-			value = -0
+			value = -12.5
 		}
 	},
 	wh_main_vmp_schwartzhafen = {
@@ -2765,7 +2765,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_growth_all",
 			effect_scope = "faction_to_province_own",
-			value = -0
+			value = -12.5
 		}
 	},
 	wh_main_vmp_vampire_counts = {
@@ -2802,7 +2802,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_growth_all",
 			effect_scope = "faction_to_province_own",
-			value = -0
+			value = -12.5
 		}
 	},
 	wh3_main_vmp_caravan_of_blue_roses = {
@@ -2839,7 +2839,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_growth_all",
 			effect_scope = "faction_to_province_own",
-			value = -0
+			value = -12.5
 		}
 	},
 	wh3_main_nur_poxmakers_of_nurgle = {
@@ -2871,7 +2871,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_growth_all",
 			effect_scope = "faction_to_province_own",
-			value = -0
+			value = -12.5
 		}
 	},
 	wh3_main_kho_exiles_of_khorne = {
@@ -2908,7 +2908,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_growth_all",
 			effect_scope = "faction_to_province_own",
-			value = -0
+			value = -12.5
 		}
 	},
 	wh3_main_tze_oracles_of_tzeentch = {
@@ -2945,7 +2945,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_growth_all",
 			effect_scope = "faction_to_province_own",
-			value = -0
+			value = -12.5
 		}
 	},
 	wh3_main_sla_seducers_of_slaanesh = {
@@ -2982,7 +2982,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_growth_all",
 			effect_scope = "faction_to_province_own",
-			value = -0
+			value = -12.5
 		}
 	},
 	wh3_main_dae_daemon_prince = {
@@ -3019,7 +3019,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_growth_all",
 			effect_scope = "faction_to_province_own",
-			value = -0
+			value = -12.5
 		}
 	},
 	wh3_main_cth_the_northern_provinces = {
@@ -3056,7 +3056,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_growth_all",
 			effect_scope = "faction_to_province_own",
-			value = -0
+			value = -12.5
 		}
 	},
 	wh3_main_cth_the_western_provinces = {
@@ -3093,7 +3093,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_growth_all",
 			effect_scope = "faction_to_province_own",
-			value = -0
+			value = -12.5
 		}
 	},
 	wh3_main_ksl_the_ice_court = {
@@ -3130,7 +3130,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_growth_all",
 			effect_scope = "faction_to_province_own",
-			value = -0
+			value = -12.5
 		}
 	},
 	wh3_main_ksl_the_great_orthodoxy = {
@@ -3167,7 +3167,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_growth_all",
 			effect_scope = "faction_to_province_own",
-			value = -0
+			value = -12.5
 		}
 	},
 	wh3_main_ksl_ursun_revivalists = {
@@ -3204,7 +3204,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_growth_all",
 			effect_scope = "faction_to_province_own",
-			value = -0
+			value = -12.5
 		}
 	},
 	wh3_main_ogr_goldtooth = {
@@ -3241,7 +3241,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_growth_all",
 			effect_scope = "faction_to_province_own",
-			value = -0
+			value = -12.5
 		}
 	},
 	wh3_main_ogr_disciples_of_the_maw = {
@@ -3278,7 +3278,7 @@ local effect_groups = {
 		{
 			effect_key = "wh_main_effect_growth_all",
 			effect_scope = "faction_to_province_own",
-			value = -0
+			value = -12.5
 		}
 	}
 };
