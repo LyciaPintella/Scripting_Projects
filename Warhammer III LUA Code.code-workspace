@@ -222,6 +222,7 @@
 		"luahelper.format.indent_width": 5,
 		"prettier.tabWidth": 5,
 		"workbench.editor.labelFormat": "medium",
+		"powershell.cwd": "d:\\OneDrive\\Documents\\Warhammer III Projects\\Scripting_Projects",
 	},
 	"launch": {
 		"configurations": [
